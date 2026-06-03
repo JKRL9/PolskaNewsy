@@ -643,8 +643,7 @@ def search_articles_for_group(media_group_name, domains):
 
     query_groups = [
         "country_terms",
-        "security_terms",
-        "politicians"
+        
     ]
 
     for query_group in query_groups:
