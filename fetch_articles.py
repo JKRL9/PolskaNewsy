@@ -39,7 +39,26 @@ NEWS_DOMAINS = [
     "pravda.com.ua",
     "zn.ua",
     "nv.ua",
-    "liga.net"
+    "liga.net",
+
+    # Chinese / Hong Kong media
+    "chinadaily.com.cn",
+    "globaltimes.cn",
+    "english.news.cn",
+    "en.people.cn",
+    "scmp.com",
+
+    # Japanese media
+    "japantimes.co.jp",
+    "asia.nikkei.com",
+    "asahi.com",
+    "mainichi.jp",
+    "yomiuri.co.jp",
+
+    # Singaporean media
+    "channelnewsasia.com",
+    "straitstimes.com",
+    "businesstimes.com.sg"
 ]
 
 THINK_TANK_DOMAINS = [
@@ -193,7 +212,26 @@ SOURCE_IMPORTANCE = {
     "pravda.com.ua": 8,
     "zn.ua": 7,
     "nv.ua": 7,
-    "liga.net": 7
+    "liga.net": 7,
+
+    # Chinese / Hong Kong media
+    "chinadaily.com.cn": 7,
+    "globaltimes.cn": 7,
+    "english.news.cn": 8,
+    "en.people.cn": 7,
+    "scmp.com": 8,
+
+    # Japanese media
+    "japantimes.co.jp": 8,
+    "asia.nikkei.com": 9,
+    "asahi.com": 8,
+    "mainichi.jp": 7,
+    "yomiuri.co.jp": 8,
+
+    # Singaporean media
+    "channelnewsasia.com": 8,
+    "straitstimes.com": 8,
+    "businesstimes.com.sg": 7
 }
 
 
@@ -272,7 +310,9 @@ def categorize_article(title, description):
         "missile",
         "troops",
         "defence spending",
-        "defense spending"
+        "defense spending",
+        "cyber",
+        "hybrid war"
     ]):
         return "Security"
 
@@ -288,7 +328,11 @@ def categorize_article(title, description):
         "oil",
         "budget",
         "deficit",
-        "interest rates"
+        "interest rates",
+        "zloty",
+        "currency",
+        "exports",
+        "imports"
     ]):
         return "Economy"
 
@@ -298,7 +342,8 @@ def categorize_article(title, description):
         "brussels",
         "commission",
         "european parliament",
-        "rule of law"
+        "rule of law",
+        "european court"
     ]):
         return "Europe / EU"
 
@@ -311,7 +356,8 @@ def categorize_article(title, description):
         "party",
         "coalition",
         "opposition",
-        "prime minister"
+        "prime minister",
+        "cabinet"
     ]):
         return "Politics"
 
@@ -324,7 +370,8 @@ def categorize_article(title, description):
         "kyiv",
         "moscow",
         "belarus",
-        "lukashenko"
+        "lukashenko",
+        "kremlin"
     ]):
         return "Ukraine / Russia / Belarus"
 
@@ -332,9 +379,22 @@ def categorize_article(title, description):
         "migration",
         "migrant",
         "refugee",
-        "border crisis"
+        "border crisis",
+        "asylum"
     ]):
         return "Migration"
+
+    if any(word in text for word in [
+        "china",
+        "chinese",
+        "beijing",
+        "japan",
+        "tokyo",
+        "singapore",
+        "asia",
+        "indo-pacific"
+    ]):
+        return "Asia / Indo-Pacific"
 
     return "General Poland"
 
@@ -357,7 +417,10 @@ def calculate_importance(article, domain, keyword, category):
         "Krzysztof Bosak",
         "Andrzej Duda",
         "Jaroslaw Kaczynski",
-        "Jarosław Kaczyński"
+        "Jarosław Kaczyński",
+        "Mateusz Morawiecki",
+        "Rafal Trzaskowski",
+        "Rafał Trzaskowski"
     ]
 
     if keyword in important_keywords:
@@ -367,7 +430,7 @@ def calculate_importance(article, domain, keyword, category):
 
     if category in ["Security", "Politics", "Ukraine / Russia / Belarus"]:
         score += 5
-    elif category in ["Economy", "Europe / EU"]:
+    elif category in ["Economy", "Europe / EU", "Asia / Indo-Pacific"]:
         score += 4
     elif category == "Migration":
         score += 4
