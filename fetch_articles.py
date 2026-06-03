@@ -2,96 +2,97 @@ import os
 import json
 import requests
 from datetime import datetime, timezone
+from urllib.parse import urlparse
 
 API_KEY = os.environ["NEWS_API_KEY"]
 
-NEWS_DOMAINS = [
-    # Western / Polish / Swiss / German / European media
-    "lemonde.fr",
-    "dorzeczy.pl",
-    "onet.pl",
-    "20min.ch",
-    "nzz.ch",
-    "spiegel.de",
-    "bild.de",
-    "wsj.com",
-    "politico.eu",
-    "zerohedge.com",
-    "insideparadeplatz.ch",
-    "bbc.com",
+MEDIA_GROUPS = {
+    "Polish media": [
+        "dorzeczy.pl",
+        "onet.pl"
+    ],
 
-    # Foreign policy / strategy magazines
-    "foreignaffairs.com",
-    "foreignpolicy.com",
-    "thediplomat.com",
-    "nationalinterest.org",
-    "warontherocks.com",
-    "worldpoliticsreview.com",
-    "geopoliticalmonitor.com",
-    "responsiblestatecraft.org",
-    "lawfaremedia.org",
-    "mondediplo.com",
+    "European / Western media": [
+        "lemonde.fr",
+        "20min.ch",
+        "nzz.ch",
+        "spiegel.de",
+        "bild.de",
+        "wsj.com",
+        "politico.eu",
+        "zerohedge.com",
+        "insideparadeplatz.ch",
+        "bbc.com"
+    ],
 
-    # Russian media
-    "themoscowtimes.com",
-    "kommersant.ru",
-    "rbc.ru",
-    "vedomosti.ru",
-    "novayagazeta.eu",
+    "Foreign policy / strategy magazines": [
+        "foreignaffairs.com",
+        "foreignpolicy.com",
+        "thediplomat.com",
+        "nationalinterest.org",
+        "warontherocks.com",
+        "worldpoliticsreview.com",
+        "geopoliticalmonitor.com",
+        "responsiblestatecraft.org",
+        "lawfaremedia.org",
+        "mondediplo.com"
+    ],
 
-    # Belarusian media
-    "zerkalo.io",
-    "charter97.org",
-    "belsat.eu",
-    "euroradio.fm",
-    "reform.news",
+    "Russian / Belarusian media": [
+        "themoscowtimes.com",
+        "kommersant.ru",
+        "rbc.ru",
+        "vedomosti.ru",
+        "novayagazeta.eu",
+        "zerkalo.io",
+        "charter97.org",
+        "belsat.eu",
+        "euroradio.fm",
+        "reform.news"
+    ],
 
-    # Ukrainian media
-    "kyivindependent.com",
-    "pravda.com.ua",
-    "zn.ua",
-    "nv.ua",
-    "liga.net",
+    "Ukrainian media": [
+        "kyivindependent.com",
+        "pravda.com.ua",
+        "zn.ua",
+        "nv.ua",
+        "liga.net"
+    ],
 
-    # Chinese / Hong Kong media
-    "chinadaily.com.cn",
-    "globaltimes.cn",
-    "english.news.cn",
-    "en.people.cn",
-    "scmp.com",
+    "Asian media": [
+        "chinadaily.com.cn",
+        "globaltimes.cn",
+        "english.news.cn",
+        "en.people.cn",
+        "scmp.com",
+        "japantimes.co.jp",
+        "asia.nikkei.com",
+        "asahi.com",
+        "mainichi.jp",
+        "yomiuri.co.jp",
+        "channelnewsasia.com",
+        "straitstimes.com",
+        "businesstimes.com.sg"
+    ],
 
-    # Japanese media
-    "japantimes.co.jp",
-    "asia.nikkei.com",
-    "asahi.com",
-    "mainichi.jp",
-    "yomiuri.co.jp",
-
-    # Singaporean media
-    "channelnewsasia.com",
-    "straitstimes.com",
-    "businesstimes.com.sg"
-]
-
-THINK_TANK_DOMAINS = [
-    "csis.org",
-    "atlanticcouncil.org",
-    "rand.org",
-    "cepa.org",
-    "heritage.org",
-    "carnegieendowment.org",
-    "brookings.edu",
-    "wilsoncenter.org",
-    "cnas.org"
-]
+    "Think tanks": [
+        "csis.org",
+        "atlanticcouncil.org",
+        "rand.org",
+        "cepa.org",
+        "heritage.org",
+        "carnegieendowment.org",
+        "brookings.edu",
+        "wilsoncenter.org",
+        "cnas.org"
+    ]
+}
 
 POLAND_TERMS = [
+    # English
     "Poland",
     "Polish",
     "Warsaw",
-    "Warszawa",
-    "Polska",
-    "Polski",
     "Polish government",
     "Polish economy",
     "Polish security",
@@ -100,11 +101,68 @@ POLAND_TERMS = [
     "Poland EU",
     "Poland Ukraine",
 
+    # Polish
+    "Polska",
+    "Polski",
+    "Polskę",
+    "Polsce",
+    "Polaków",
+    "Warszawa",
+    "rząd Polski",
+    "polska gospodarka",
+    "polskie wojsko",
+    "polskie bezpieczeństwo",
+
+    # German
+    "Polen",
+    "polnisch",
+    "polnische",
+    "polnischer",
+    "Warschau",
+    "polnische Regierung",
+    "polnische Wirtschaft",
+    "polnisches Militär",
+
+    # French
+    "Pologne",
+    "polonais",
+    "polonaise",
+    "Varsovie",
+    "gouvernement polonais",
+    "économie polonaise",
+
+    # Spanish
+    "Polonia",
+    "polaco",
+    "polaca",
+    "Varsovia",
+    "gobierno polaco",
+
+    # Italian
+    "Polonia",
+    "polacco",
+    "polacca",
+    "Varsavia",
+    "governo polacco",
+
     # Russian
     "Польша",
     "Польши",
     "Польшу",
+    "Польше",
     "польский",
+    "польская",
+    "польское",
+    "Варшава",
+    "польское правительство",
+    "польская экономика",
+    "польская армия",
+
+    # Belarusian
+    "Польшча",
+    "Польшчы",
+    "Польшчу",
+    "польскі",
     "польская",
     "Варшава",
 
@@ -114,7 +172,68 @@ POLAND_TERMS = [
     "Польщу",
     "польський",
     "польська",
-    "Варшава"
+    "польське",
+    "Варшава",
+    "польський уряд",
+    "польська економіка",
+    "польська армія",
+
+    # Chinese simplified / traditional
+    "波兰",
+    "波蘭",
+    "华沙",
+    "華沙",
+    "波兰政府",
+    "波蘭政府",
+    "波兰经济",
+    "波蘭經濟",
+    "波兰军队",
+    "波蘭軍隊",
+
+    # Japanese
+    "ポーランド",
+    "ポランド",
+    "ワルシャワ",
+    "ポーランド政府",
+    "ポーランド経済",
+    "ポーランド軍",
+
+    # Korean
+    "폴란드",
+    "바르샤바",
+    "폴란드 정부",
+    "폴란드 경제",
+    "폴란드 군대",
+
+    # Portuguese
+    "Polônia",
+    "Polonia",
+    "polonês",
+    "polonesa",
+    "Varsóvia",
+
+    # Dutch
+    "Polen",
+    "Pools",
+    "Poolse",
+    "Warschau",
+
+    # Swedish / Norwegian / Danish
+    "Polen",
+    "polsk",
+    "polska",
+    "Warszawa",
+
+    # Czech / Slovak
+    "Polsko",
+    "polský",
+    "polská",
+    "Varšava",
+
+    # Hungarian
+    "Lengyelország",
+    "lengyel",
+    "Varsó"
 ]
 
 POLITICIANS = [
@@ -177,10 +296,7 @@ POLITICIANS = [
     "Piotr Gliński"
 ]
 
-KEYWORDS = POLAND_TERMS + POLITICIANS
-
 SOURCE_IMPORTANCE = {
-    # Western / Polish / Swiss / German / European media
     "bbc.com": 10,
     "wsj.com": 10,
     "politico.eu": 9,
@@ -194,7 +310,6 @@ SOURCE_IMPORTANCE = {
     "insideparadeplatz.ch": 5,
     "zerohedge.com": 5,
 
-    # Foreign policy / strategy magazines
     "foreignaffairs.com": 10,
     "foreignpolicy.com": 10,
     "thediplomat.com": 8,
@@ -206,7 +321,6 @@ SOURCE_IMPORTANCE = {
     "lawfaremedia.org": 8,
     "mondediplo.com": 8,
 
-    # Think tanks
     "csis.org": 10,
     "rand.org": 10,
     "atlanticcouncil.org": 9,
@@ -217,46 +331,48 @@ SOURCE_IMPORTANCE = {
     "heritage.org": 8,
     "wilsoncenter.org": 8,
 
-    # Russian media
     "themoscowtimes.com": 8,
     "kommersant.ru": 7,
     "rbc.ru": 7,
     "vedomosti.ru": 7,
     "novayagazeta.eu": 8,
 
-    # Belarusian media
     "zerkalo.io": 7,
     "charter97.org": 7,
     "belsat.eu": 8,
     "euroradio.fm": 6,
     "reform.news": 6,
 
-    # Ukrainian media
     "kyivindependent.com": 9,
     "pravda.com.ua": 8,
     "zn.ua": 7,
     "nv.ua": 7,
     "liga.net": 7,
 
-    # Chinese / Hong Kong media
     "chinadaily.com.cn": 7,
     "globaltimes.cn": 7,
     "english.news.cn": 8,
     "en.people.cn": 7,
     "scmp.com": 8,
 
-    # Japanese media
     "japantimes.co.jp": 8,
     "asia.nikkei.com": 9,
     "asahi.com": 8,
     "mainichi.jp": 7,
     "yomiuri.co.jp": 8,
 
-    # Singaporean media
     "channelnewsasia.com": 8,
     "straitstimes.com": 8,
     "businesstimes.com.sg": 7
 }
+
+
+def extract_domain(url):
+    try:
+        parsed = urlparse(url)
+        return parsed.netloc.replace("www.", "").lower()
+    except Exception:
+        return ""
 
 
 def article_text(article):
@@ -269,40 +385,12 @@ def article_text(article):
 def is_really_about_poland(article):
     text = article_text(article)
 
-    direct_poland_terms = [
-        "poland",
-        "polish",
-        "warsaw",
-        "polska",
-        "polski",
-        "polacy",
-        "poland's",
-        "polish government",
-        "polish economy",
-        "polish military",
+    for term in POLAND_TERMS:
+        if term.lower() in text:
+            return True
 
-        # Russian
-        "польша",
-        "польши",
-        "польшу",
-        "польский",
-        "польская",
-        "варшава",
-
-        # Ukrainian
-        "польща",
-        "польщі",
-        "польщу",
-        "польський",
-        "польська",
-        "варшава"
-    ]
-
-    if any(term in text for term in direct_poland_terms):
-        return True
-
-    for name in POLITICIANS:
-        if name.lower() in text:
+    for person in POLITICIANS:
+        if person.lower() in text:
             return True
 
     return False
@@ -319,152 +407,95 @@ def detect_people(article):
     return sorted(list(set(found_people)))
 
 
+def detect_media_group(domain):
+    for group_name, domains in MEDIA_GROUPS.items():
+        if domain in domains:
+            return group_name
+
+    return "Other"
+
+
 def categorize_article(title, description):
     text = f"{title} {description}".lower()
 
     if any(word in text for word in [
-        "nato",
-        "military",
-        "defence",
-        "defense",
-        "security",
-        "war",
-        "army",
-        "border",
-        "missile",
-        "troops",
-        "defence spending",
-        "defense spending",
-        "cyber",
-        "hybrid war",
-        "deterrence",
-        "eastern flank"
+        "nato", "military", "defence", "defense", "security", "war",
+        "army", "border", "missile", "troops", "cyber", "hybrid war",
+        "deterrence", "eastern flank", "wojsko", "bezpieczeństwo",
+        "война", "армия", "безопасность", "війна", "армія", "безпека",
+        "軍", "安全保障", "军事", "安全"
     ]):
         return "Security"
 
     if any(word in text for word in [
-        "economy",
-        "inflation",
-        "market",
-        "trade",
-        "gdp",
-        "investment",
-        "energy",
-        "gas",
-        "oil",
-        "budget",
-        "deficit",
-        "interest rates",
-        "zloty",
-        "currency",
-        "exports",
-        "imports"
+        "economy", "inflation", "market", "trade", "gdp", "investment",
+        "energy", "gas", "oil", "budget", "deficit", "interest rates",
+        "zloty", "currency", "exports", "imports", "gospodarka",
+        "inflacja", "rynek", "handel", "энергия", "экономика",
+        "економіка", "енергія", "経済", "能源", "经济"
     ]):
         return "Economy"
 
     if any(word in text for word in [
-        "eu",
-        "european union",
-        "brussels",
-        "commission",
-        "european parliament",
-        "rule of law",
-        "european court"
+        "eu", "european union", "brussels", "commission",
+        "european parliament", "rule of law", "european court",
+        "unia europejska", "bruksela", "ue", "евросоюз",
+        "євросоюз", "欧洲联盟", "欧州連合"
     ]):
         return "Europe / EU"
 
     if any(word in text for word in [
-        "government",
-        "election",
-        "president",
-        "minister",
-        "parliament",
-        "party",
-        "coalition",
-        "opposition",
-        "prime minister",
-        "cabinet"
+        "government", "election", "president", "minister", "parliament",
+        "party", "coalition", "opposition", "prime minister", "cabinet",
+        "rząd", "wybory", "prezydent", "minister", "parlament",
+        "правительство", "выборы", "президент", "уряд", "вибори",
+        "政府", "選挙", "选举"
     ]):
         return "Politics"
 
     if any(word in text for word in [
-        "ukraine",
-        "russia",
-        "russian",
-        "putin",
-        "zelensky",
-        "kyiv",
-        "moscow",
-        "belarus",
-        "lukashenko",
-        "kremlin"
+        "ukraine", "russia", "russian", "putin", "zelensky", "kyiv",
+        "moscow", "belarus", "lukashenko", "kremlin", "ukraina",
+        "rosja", "białoruś", "украина", "россия", "беларусь",
+        "україна", "росія", "білорусь", "ウクライナ", "ロシア",
+        "白俄罗斯", "俄罗斯", "乌克兰"
     ]):
         return "Ukraine / Russia / Belarus"
 
     if any(word in text for word in [
-        "migration",
-        "migrant",
-        "refugee",
-        "border crisis",
-        "asylum"
+        "migration", "migrant", "refugee", "border crisis", "asylum",
+        "migracja", "uchodźcy", "миграция", "беженцы", "міграція",
+        "біженці"
     ]):
         return "Migration"
 
     if any(word in text for word in [
-        "china",
-        "chinese",
-        "beijing",
-        "japan",
-        "tokyo",
-        "singapore",
-        "asia",
-        "indo-pacific"
+        "china", "chinese", "beijing", "japan", "tokyo", "singapore",
+        "asia", "indo-pacific", "chiny", "japonia", "singapur",
+        "中国", "日本", "新加坡", "アジア", "日本", "シンガポール"
     ]):
         return "Asia / Indo-Pacific"
 
     if any(word in text for word in [
-        "strategy",
-        "grand strategy",
-        "geopolitics",
-        "foreign policy",
-        "international order",
-        "power competition",
-        "great-power",
-        "great power",
-        "alliance",
-        "transatlantic"
+        "strategy", "grand strategy", "geopolitics", "foreign policy",
+        "international order", "power competition", "great-power",
+        "great power", "alliance", "transatlantic", "strategia",
+        "geopolityka", "polityka zagraniczna"
     ]):
         return "Foreign Policy / Strategy"
 
     return "General Poland"
 
 
-def calculate_importance(article, domain, keyword, category):
+def calculate_importance(article, domain, keyword_group, category):
     score = 0
 
     score += SOURCE_IMPORTANCE.get(domain, 3)
 
-    important_keywords = [
-        "Poland NATO",
-        "Poland Ukraine",
-        "Polish security",
-        "Polish military",
-        "Polish government",
-        "Donald Tusk",
-        "Radoslaw Sikorski",
-        "Radosław Sikorski",
-        "Karol Nawrocki",
-        "Krzysztof Bosak",
-        "Andrzej Duda",
-        "Jaroslaw Kaczynski",
-        "Jarosław Kaczyński",
-        "Mateusz Morawiecki",
-        "Rafal Trzaskowski",
-        "Rafał Trzaskowski"
-    ]
-
-    if keyword in important_keywords:
+    if keyword_group in ["politicians", "security_terms"]:
         score += 5
+    elif keyword_group == "country_terms":
+        score += 3
     else:
         score += 2
 
@@ -512,75 +543,140 @@ def importance_label(score):
     return "Low"
 
 
-def build_query(keyword):
-    return f'"{keyword}" AND (Poland OR Polish OR Warsaw OR Polska OR Польша OR Польща)'
+def make_or_query(terms):
+    quoted_terms = []
+
+    for term in terms:
+        quoted_terms.append(f'"{term}"')
+
+    return " OR ".join(quoted_terms)
 
 
-def search_articles(domains, source_type):
+def build_query(query_group):
+    if query_group == "country_terms":
+        important_terms = [
+            "Poland", "Polish", "Warsaw",
+            "Polska", "Polski", "Warszawa",
+            "Polen", "Warschau",
+            "Pologne", "Varsovie",
+            "Polonia", "Varsovia",
+            "Польша", "Польща", "Польшча",
+            "波兰", "波蘭", "华沙", "華沙",
+            "ポーランド", "ワルシャワ",
+            "폴란드", "바르샤바",
+            "Polsko", "Lengyelország"
+        ]
+        return make_or_query(important_terms)
+
+    if query_group == "security_terms":
+        return (
+            '(Poland OR Polish OR Polska OR Польша OR Польща OR 波兰 OR ポーランド) '
+            'AND '
+            '(NATO OR security OR military OR defence OR defense OR Ukraine OR Russia OR war)'
+        )
+
+    if query_group == "politicians":
+        top_politicians = [
+            "Donald Tusk",
+            "Karol Nawrocki",
+            "Radosław Sikorski",
+            "Radoslaw Sikorski",
+            "Krzysztof Bosak",
+            "Andrzej Duda",
+            "Jarosław Kaczyński",
+            "Jaroslaw Kaczynski",
+            "Mateusz Morawiecki",
+            "Rafał Trzaskowski",
+            "Rafal Trzaskowski",
+            "Sławomir Mentzen",
+            "Slawomir Mentzen"
+        ]
+
+        return (
+            '(' + make_or_query(top_politicians) + ') '
+            'AND '
+            '(Poland OR Polish OR Polska OR Warsaw OR Warszawa OR Польша OR Польща OR 波兰 OR ポーランド)'
+        )
+
+    return "Poland OR Polish OR Warsaw"
+
+
+def search_articles_for_group(media_group_name, domains):
     url = "https://newsapi.org/v2/everything"
     results = []
 
-    for domain in domains:
-        for keyword in KEYWORDS:
-            query = build_query(keyword)
+    domain_string = ",".join(domains)
 
-            params = {
-                "q": query,
-                "domains": domain,
-                "sortBy": "publishedAt",
-                "pageSize": 10,
-                "apiKey": API_KEY
-            }
+    query_groups = [
+        "country_terms",
+        "security_terms",
+        "politicians"
+    ]
 
-            response = requests.get(url, params=params)
+    for query_group in query_groups:
+        query = build_query(query_group)
 
-            print(f"Searching {source_type}: {domain} | keyword: {keyword}")
-            print("Status:", response.status_code)
+        params = {
+            "q": query,
+            "domains": domain_string,
+            "sortBy": "publishedAt",
+            "pageSize": 30,
+            "apiKey": API_KEY
+        }
 
-            if response.status_code == 426:
-                print("NewsAPI plan limit or endpoint restriction.")
+        print(f"Searching media group: {media_group_name} | query group: {query_group}")
+        print("Query:", query[:250], "...")
+
+        response = requests.get(url, params=params)
+
+        print("Status:", response.status_code)
+
+        if response.status_code == 429:
+            print("Daily request limit reached.")
+            return results
+
+        if response.status_code != 200:
+            print("Error:", response.text)
+            continue
+
+        data = response.json()
+
+        for article in data.get("articles", []):
+            if not is_really_about_poland(article):
                 continue
 
-            if response.status_code == 429:
-                print("Daily request limit reached.")
-                return results
+            title = article.get("title") or ""
+            description = article.get("description") or ""
+            article_url = article.get("url") or ""
 
-            if response.status_code != 200:
-                print("Error:", response.text)
+            if not article_url:
                 continue
 
-            data = response.json()
+            domain = extract_domain(article_url)
 
-            for article in data.get("articles", []):
-                if not is_really_about_poland(article):
-                    continue
+            if not domain:
+                domain = domains[0]
 
-                title = article.get("title") or ""
-                description = article.get("description") or ""
-                article_url = article.get("url") or ""
+            category = categorize_article(title, description)
+            people = detect_people(article)
+            score = calculate_importance(article, domain, query_group, category)
 
-                if not article_url:
-                    continue
-
-                category = categorize_article(title, description)
-                score = calculate_importance(article, domain, keyword, category)
-                people = detect_people(article)
-
-                results.append({
-                    "fetched_at": datetime.utcnow().isoformat(),
-                    "published_at": article.get("publishedAt"),
-                    "source_type": source_type,
-                    "source_domain": domain,
-                    "source": article.get("source", {}).get("name"),
-                    "title": title,
-                    "description": description,
-                    "url": article_url,
-                    "keyword": keyword,
-                    "category": category,
-                    "people": people,
-                    "importance_score": score,
-                    "importance_label": importance_label(score)
-                })
+            results.append({
+                "fetched_at": datetime.utcnow().isoformat(),
+                "published_at": article.get("publishedAt"),
+                "source_type": "Think Tank" if media_group_name == "Think tanks" else "Newspaper / Magazine",
+                "media_group": media_group_name,
+                "source_domain": domain,
+                "source": article.get("source", {}).get("name"),
+                "title": title,
+                "description": description,
+                "url": article_url,
+                "keyword": query_group,
+                "category": category,
+                "people": people,
+                "importance_score": score,
+                "importance_label": importance_label(score)
+            })
 
     return results
 
@@ -622,15 +718,16 @@ def main():
     old_articles = load_existing_articles()
     new_articles = []
 
-    new_articles.extend(search_articles(NEWS_DOMAINS, "Newspaper / Magazine"))
-    new_articles.extend(search_articles(THINK_TANK_DOMAINS, "Think Tank"))
+    for media_group_name, domains in MEDIA_GROUPS.items():
+        group_articles = search_articles_for_group(media_group_name, domains)
+        new_articles.extend(group_articles)
 
     all_articles = old_articles + new_articles
     all_articles = remove_duplicates(all_articles)
 
     all_articles = sorted(
         all_articles,
-        key=lambda x: x.get("importance_score", 0),
+        key=lambda x: x.get("published_at") or "",
         reverse=True
     )
 
