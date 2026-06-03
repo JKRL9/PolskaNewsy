@@ -6,7 +6,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 1000px;
+      max-width: 1100px;
       margin: 40px auto;
       padding: 20px;
       background: #f5f5f5;
@@ -61,6 +61,11 @@
       margin-bottom: 8px;
     }
 
+    .importance {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
     a {
       color: #0056b3;
     }
@@ -69,13 +74,13 @@
 <body>
 
   <h1>PolskaNewsy</h1>
-  <div class="subtitle">Monitoring światowych gazet i think tanków o Polsce</div>
+  <div class="subtitle">Monitoring światowych gazet, think tanków i źródeł strategicznych o Polsce</div>
 
-  <input type="text" id="searchInput" placeholder="Search: NATO, economy, Warsaw, EU...">
+  <input type="text" id="searchInput" placeholder="Search: NATO, Tusk, economy, Warsaw, EU...">
 
   <select id="sourceTypeFilter">
     <option value="">All sources</option>
-    <option value="Newspaper">Newspapers</option>
+    <option value="Newspaper / Magazine">Newspapers / Magazines</option>
     <option value="Think Tank">Think Tanks</option>
   </select>
 
@@ -85,15 +90,38 @@
     <option value="Economy">Economy</option>
     <option value="Europe / EU">Europe / EU</option>
     <option value="Politics">Politics</option>
-    <option value="General">General</option>
+    <option value="Ukraine / Russia / Belarus">Ukraine / Russia / Belarus</option>
+    <option value="Migration">Migration</option>
+    <option value="Asia / Indo-Pacific">Asia / Indo-Pacific</option>
+    <option value="Foreign Policy / Strategy">Foreign Policy / Strategy</option>
+    <option value="General Poland">General Poland</option>
   </select>
 
-  <button onclick="showAll()">Show all</button>
-  <button onclick="showToday()">Today</button>
+  <select id="importanceFilter">
+    <option value="">All importance levels</option>
+    <option value="Very High">Very High</option>
+    <option value="High">High</option>
+    <option value="Medium">Medium</option>
+    <option value="Low">Low</option>
+  </select>
+
+  <br>
+
+  <button onclick="setDateFilter('all')">All</button>
+  <button onclick="setDateFilter('today')">Today</button>
+  <button onclick="setDateFilter('7')">Last 7 days</button>
+  <button onclick="setDateFilter('30')">Last 30 days</button>
+
+  <br>
+
   <button onclick="quickSearch('nato')">NATO</button>
+  <button onclick="quickSearch('tusk')">Tusk</button>
+  <button onclick="quickSearch('sikorski')">Sikorski</button>
+  <button onclick="quickSearch('nawrocki')">Nawrocki</button>
   <button onclick="quickSearch('economy')">Economy</button>
   <button onclick="quickSearch('ukraine')">Ukraine</button>
   <button onclick="quickSearch('eu')">EU</button>
+  <button onclick="quickSearch('russia')">Russia</button>
 
   <div class="stats" id="stats">Loading articles...</div>
 
@@ -101,12 +129,18 @@
 
   <script>
     let allArticles = [];
+    let currentDateFilter = "all";
 
     async function loadArticles() {
       try {
         const response = await fetch("data/articles.json");
         allArticles = await response.json();
-        displayArticles(allArticles);
+
+        allArticles.sort((a, b) => {
+          return (b.importance_score || 0) - (a.importance_score || 0);
+        });
+
+        applyFilters();
       } catch (error) {
         document.getElementById("stats").innerText = "Could not load data/articles.json";
         console.error(error);
@@ -117,12 +151,12 @@
       const container = document.getElementById("articles");
       const stats = document.getElementById("stats");
 
-      stats.innerText = "Found " + articles.length + " articles.";
+      stats.innerText = "Showing " + articles.length + " articles.";
 
       container.innerHTML = "";
 
       if (articles.length === 0) {
-        container.innerHTML = "<p>No articles found.</p>";
+        container.innerHTML = "<p>No articles found for this filter.</p>";
         return;
       }
 
@@ -130,15 +164,33 @@
         const div = document.createElement("div");
         div.className = "article";
 
+        const people = Array.isArray(article.people) && article.people.length > 0
+          ? article.people.join(", ")
+          : "None detected";
+
         div.innerHTML = `
           <div class="meta">
             ${article.source_type || "Unknown"} |
             ${article.source || "Unknown source"} |
+            ${article.source_domain || ""} |
             ${article.category || "No category"} |
-            ${article.published_at || ""}
+            ${formatDate(article.published_at)}
           </div>
+
+          <div class="importance">
+            Importance: ${article.importance_label || "Unknown"} 
+            (${article.importance_score || 0})
+          </div>
+
           <div class="title">${article.title || "No title"}</div>
+
           <div class="description">${article.description || ""}</div>
+
+          <div class="meta">
+            Keyword: ${article.keyword || "None"} |
+            People: ${people}
+          </div>
+
           <a href="${article.url}" target="_blank">Open article</a>
         `;
 
@@ -150,42 +202,74 @@
       const searchText = document.getElementById("searchInput").value.toLowerCase();
       const sourceType = document.getElementById("sourceTypeFilter").value;
       const category = document.getElementById("categoryFilter").value;
+      const importance = document.getElementById("importanceFilter").value;
 
       let filtered = allArticles.filter(article => {
+        const peopleText = Array.isArray(article.people) ? article.people.join(" ") : "";
+
         const fullText = `
           ${article.title || ""}
           ${article.description || ""}
           ${article.source || ""}
+          ${article.source_domain || ""}
           ${article.keyword || ""}
           ${article.category || ""}
+          ${peopleText}
         `.toLowerCase();
 
         const matchesSearch = fullText.includes(searchText);
         const matchesSourceType = sourceType === "" || article.source_type === sourceType;
         const matchesCategory = category === "" || article.category === category;
+        const matchesImportance = importance === "" || article.importance_label === importance;
+        const matchesDate = matchesDateFilter(article);
 
-        return matchesSearch && matchesSourceType && matchesCategory;
+        return matchesSearch && matchesSourceType && matchesCategory && matchesImportance && matchesDate;
+      });
+
+      filtered.sort((a, b) => {
+        return (b.importance_score || 0) - (a.importance_score || 0);
       });
 
       displayArticles(filtered);
     }
 
-    function showAll() {
-      document.getElementById("searchInput").value = "";
-      document.getElementById("sourceTypeFilter").value = "";
-      document.getElementById("categoryFilter").value = "";
-      displayArticles(allArticles);
+    function matchesDateFilter(article) {
+      if (currentDateFilter === "all") {
+        return true;
+      }
+
+      if (!article.published_at) {
+        return false;
+      }
+
+      const publishedDate = new Date(article.published_at);
+      const now = new Date();
+
+      if (isNaN(publishedDate.getTime())) {
+        return false;
+      }
+
+      const diffMs = now - publishedDate;
+      const diffDays = diffMs / (1000 * 60 * 60 * 24);
+
+      if (currentDateFilter === "today") {
+        return publishedDate.toISOString().slice(0, 10) === now.toISOString().slice(0, 10);
+      }
+
+      if (currentDateFilter === "7") {
+        return diffDays <= 7;
+      }
+
+      if (currentDateFilter === "30") {
+        return diffDays <= 30;
+      }
+
+      return true;
     }
 
-    function showToday() {
-      const today = new Date().toISOString().slice(0, 10);
-
-      const todayArticles = allArticles.filter(article => {
-        if (!article.published_at) return false;
-        return article.published_at.slice(0, 10) === today;
-      });
-
-      displayArticles(todayArticles);
+    function setDateFilter(filter) {
+      currentDateFilter = filter;
+      applyFilters();
     }
 
     function quickSearch(word) {
@@ -193,12 +277,28 @@
       applyFilters();
     }
 
+    function formatDate(dateString) {
+      if (!dateString) {
+        return "No date";
+      }
+
+      const date = new Date(dateString);
+
+      if (isNaN(date.getTime())) {
+        return dateString;
+      }
+
+      return date.toLocaleString();
+    }
+
     document.getElementById("searchInput").addEventListener("input", applyFilters);
     document.getElementById("sourceTypeFilter").addEventListener("change", applyFilters);
     document.getElementById("categoryFilter").addEventListener("change", applyFilters);
+    document.getElementById("importanceFilter").addEventListener("change", applyFilters);
 
     loadArticles();
   </script>
 
 </body>
+</html>
 </html>
