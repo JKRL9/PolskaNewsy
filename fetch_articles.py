@@ -1,15 +1,24 @@
 import os
+import json
 import requests
+from datetime import datetime
 
 API_KEY = os.environ["NEWS_API_KEY"]
 
-URL = "https://newsapi.org/v2/everything"
-
-SEARCH_QUERY = (
-    "Poland OR Polish OR Warsaw OR "
-    "\"Polish government\" OR \"Polish economy\" OR "
-    "\"Poland NATO\" OR \"Poland EU\" OR \"Poland Ukraine\""
-)
+NEWS_DOMAINS = [
+    "lemonde.fr",
+    "dorzeczy.pl",
+    "onet.pl",
+    "20min.ch",
+    "nzz.ch",
+    "spiegel.de",
+    "bild.de",
+    "wsj.com",
+    "politico.eu",
+    "zero.pl",
+    "insideparadeplatz.ch",
+    "bbc.com"
+]
 
 THINK_TANK_DOMAINS = [
     "csis.org",
@@ -23,97 +32,81 @@ THINK_TANK_DOMAINS = [
     "cnas.org"
 ]
 
-MEDIA_DOMAINS = [
-    "lemonde.fr",
-    "rp.pl",
-    "onet.pl",
-    "20min.ch",
-    "nzz.ch",
-    "spiegel.de",
-    "bild.de",
-    "wsj.com",
-    "politico.com",
-    "zerohedge.com",
-    "insideparadeplatz.ch",
-    "bbc.com"
+KEYWORDS = [
+    "Poland",
+    "Polish",
+    "Warsaw",
+    "Poland NATO",
+    "Poland EU",
+    "Poland Ukraine",
+    "Polish economy",
+    "Polish government",
+    "Polish security",
+    "Polish military"
 ]
 
-ALL_DOMAINS = THINK_TANK_DOMAINS + MEDIA_DOMAINS
 
-
-def categorize_source(domain):
-    if domain in THINK_TANK_DOMAINS:
-        return "Think Tank"
-    if domain in MEDIA_DOMAINS:
-        return "Media"
-    return "Other"
-
-
-def categorize_topic(title, description):
+def categorize_article(title, description):
     text = f"{title} {description}".lower()
 
-    if any(word in text for word in ["nato", "security", "defence", "defense", "military", "war", "army"]):
-        return "Security / Military"
+    if any(word in text for word in ["nato", "military", "defence", "defense", "security", "war", "army"]):
+        return "Security"
 
-    if any(word in text for word in ["economy", "inflation", "market", "trade", "investment", "gdp", "growth"]):
+    if any(word in text for word in ["economy", "inflation", "market", "trade", "gdp", "investment"]):
         return "Economy"
 
-    if any(word in text for word in ["eu", "european union", "brussels", "commission"]):
+    if any(word in text for word in ["eu", "european union", "brussels"]):
         return "Europe / EU"
 
-    if any(word in text for word in ["election", "government", "president", "parliament", "minister", "tusk", "duda"]):
+    if any(word in text for word in ["government", "election", "president", "minister", "parliament"]):
         return "Politics"
 
-    if any(word in text for word in ["ukraine", "russia", "putin", "zelensky"]):
-        return "Ukraine / Russia"
-
-    return "General Poland"
+    return "General"
 
 
-def fetch_articles():
-    all_articles = []
+def search_articles(domains, source_type):
+    url = "https://newsapi.org/v2/everything"
+    domain_string = ",".join(domains)
 
-    for domain in ALL_DOMAINS:
+    results = []
+
+    for keyword in KEYWORDS:
         params = {
-            "q": SEARCH_QUERY,
-            "domains": domain,
+            "q": keyword,
+            "domains": domain_string,
             "language": "en",
             "sortBy": "publishedAt",
-            "pageSize": 10,
+            "pageSize": 20,
             "apiKey": API_KEY
         }
 
-        response = requests.get(URL, params=params)
-
-        print(f"\nChecking domain: {domain}")
+        response = requests.get(url, params=params)
+        print(f"Searching {source_type} for keyword: {keyword}")
         print("Status:", response.status_code)
 
         if response.status_code != 200:
-            print("Error:", response.text)
             continue
 
         data = response.json()
 
         for article in data.get("articles", []):
-            title = article.get("title", "")
-            description = article.get("description", "")
-            source = article.get("source", {}).get("name", "")
-            article_url = article.get("url", "")
+            title = article.get("title") or ""
+            description = article.get("description") or ""
+            article_url = article.get("url") or ""
 
-            source_type = categorize_source(domain)
-            topic = categorize_topic(title, description)
-
-            all_articles.append({
-                "domain": domain,
+            results.append({
+                "fetched_at": datetime.utcnow().isoformat(),
+                "published_at": article.get("publishedAt"),
                 "source_type": source_type,
-                "topic": topic,
-                "source": source,
+                "source": article.get("source", {}).get("name"),
                 "title": title,
                 "description": description,
-                "url": article_url
+                "url": article_url,
+                "keyword": keyword,
+                "category": categorize_article(title, description)
             })
 
-    return all_articles
+    return results
 
 
 def remove_duplicates(articles):
@@ -121,7 +114,7 @@ def remove_duplicates(articles):
     unique_articles = []
 
     for article in articles:
-        url = article["url"]
+        url = article.get("url")
 
         if url and url not in seen_urls:
             unique_articles.append(article)
@@ -131,21 +124,25 @@ def remove_duplicates(articles):
 
 
 def main():
-    articles = fetch_articles()
-    articles = remove_duplicates(articles)
+    print("Starting Poland media monitor...")
 
-    print("\n==============================")
-    print(f"FOUND {len(articles)} UNIQUE ARTICLES")
-    print("==============================\n")
+    all_articles = []
 
-    for article in articles:
-        print("SOURCE TYPE:", article["source_type"])
-        print("DOMAIN:", article["domain"])
-        print("TOPIC:", article["topic"])
-        print("SOURCE:", article["source"])
-        print("TITLE:", article["title"])
-        print("URL:", article["url"])
-        print("---")
+    all_articles.extend(search_articles(NEWS_DOMAINS, "Newspaper"))
+    all_articles.extend(search_articles(THINK_TANK_DOMAINS, "Think Tank"))
+
+    all_articles = remove_duplicates(all_articles)
+
+    print(f"Found {len(all_articles)} unique articles.")
+
+    import os
+    os.makedirs("data", exist_ok=True)
+
+    with open("data/articles.json", "w", encoding="utf-8") as file:
+        json.dump(all_articles, file, ensure_ascii=False, indent=2)
+
+    print("Saved articles to data/articles.json")
+    print("Finished.")
 
 
 if __name__ == "__main__":
