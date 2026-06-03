@@ -80,6 +80,7 @@
 
   <select id="sourceTypeFilter">
     <option value="">All sources</option>
+    <option value="Newspaper">Newspapers</option>
     <option value="Newspaper / Magazine">Newspapers / Magazines</option>
     <option value="Think Tank">Think Tanks</option>
   </select>
@@ -95,6 +96,7 @@
     <option value="Asia / Indo-Pacific">Asia / Indo-Pacific</option>
     <option value="Foreign Policy / Strategy">Foreign Policy / Strategy</option>
     <option value="General Poland">General Poland</option>
+    <option value="General">General</option>
   </select>
 
   <select id="importanceFilter">
@@ -118,10 +120,12 @@
   <button onclick="quickSearch('tusk')">Tusk</button>
   <button onclick="quickSearch('sikorski')">Sikorski</button>
   <button onclick="quickSearch('nawrocki')">Nawrocki</button>
+  <button onclick="quickSearch('bosak')">Bosak</button>
   <button onclick="quickSearch('economy')">Economy</button>
   <button onclick="quickSearch('ukraine')">Ukraine</button>
   <button onclick="quickSearch('eu')">EU</button>
   <button onclick="quickSearch('russia')">Russia</button>
+  <button onclick="quickSearch('china')">China</button>
 
   <div class="stats" id="stats">Loading articles...</div>
 
@@ -133,7 +137,7 @@
 
     async function loadArticles() {
       try {
-        const response = await fetch("data/articles.json");
+        const response = await fetch("data/articles.json?cache=" + new Date().getTime());
         allArticles = await response.json();
 
         allArticles.sort((a, b) => {
@@ -300,5 +304,4 @@
   </script>
 
 </body>
-</html>
 </html>
