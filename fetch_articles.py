@@ -19,6 +19,10 @@ MEDIA_GROUPS = {
         "spiegel.de",
         "bild.de",
         "wsj.com",
+        "ft.com",
+        "faz.net",
+        "faz.de",
+        "weltwoche.ch",
         "politico.eu",
         "zerohedge.com",
         "insideparadeplatz.ch",
@@ -28,6 +32,7 @@ MEDIA_GROUPS = {
     "Foreign policy / strategy magazines": [
         "foreignaffairs.com",
         "foreignpolicy.com",
+        "thefp.com",
         "thediplomat.com",
         "nationalinterest.org",
         "warontherocks.com",
@@ -299,10 +304,14 @@ POLITICIANS = [
 SOURCE_IMPORTANCE = {
     "bbc.com": 10,
     "wsj.com": 10,
+    "ft.com": 10,
     "politico.eu": 9,
     "lemonde.fr": 9,
     "spiegel.de": 9,
     "nzz.ch": 8,
+    "faz.net": 9,
+    "faz.de": 9,
+    "weltwoche.ch": 7,
     "onet.pl": 7,
     "dorzeczy.pl": 6,
     "20min.ch": 5,
@@ -312,6 +321,7 @@ SOURCE_IMPORTANCE = {
 
     "foreignaffairs.com": 10,
     "foreignpolicy.com": 10,
+    "thefp.com": 8,
     "thediplomat.com": 8,
     "nationalinterest.org": 8,
     "warontherocks.com": 9,
@@ -375,6 +385,27 @@ def extract_domain(url):
         return ""
 
 
+def normalize_domain(domain):
+    domain = (domain or "").lower().replace("www.", "")
+
+    if domain.endswith(".ft.com"):
+        return "ft.com"
+
+    if domain.endswith(".bbc.com"):
+        return "bbc.com"
+
+    if domain.endswith(".wsj.com"):
+        return "wsj.com"
+
+    if domain.endswith(".faz.net"):
+        return "faz.net"
+
+    if domain.endswith(".nzz.ch"):
+        return "nzz.ch"
+
+    return domain
+
+
 def article_text(article):
     title = article.get("title") or ""
     description = article.get("description") or ""
@@ -408,6 +439,8 @@ def detect_people(article):
 
 
 def detect_media_group(domain):
+    domain = normalize_domain(domain)
+
     for group_name, domains in MEDIA_GROUPS.items():
         if domain in domains:
             return group_name
@@ -488,6 +521,7 @@ def categorize_article(title, description):
 
 
 def calculate_importance(article, domain, keyword_group, category):
+    domain = normalize_domain(domain)
     score = 0
 
     score += SOURCE_IMPORTANCE.get(domain, 3)
@@ -570,7 +604,7 @@ def build_query(query_group):
 
     if query_group == "security_terms":
         return (
-            '(Poland OR Polish OR Polska OR Польша OR Польща OR 波兰 OR ポーランド) '
+            '(Poland OR Polish OR Polska OR Polen OR Pologne OR Польша OR Польща OR 波兰 OR ポーランド) '
             'AND '
             '(NATO OR security OR military OR defence OR defense OR Ukraine OR Russia OR war)'
         )
@@ -595,7 +629,7 @@ def build_query(query_group):
         return (
             '(' + make_or_query(top_politicians) + ') '
             'AND '
-            '(Poland OR Polish OR Polska OR Warsaw OR Warszawa OR Польша OR Польща OR 波兰 OR ポーランド)'
+            '(Poland OR Polish OR Polska OR Warsaw OR Warszawa OR Polen OR Польша OR Польща OR 波兰 OR ポーランド)'
         )
 
     return "Poland OR Polish OR Warsaw"
@@ -652,10 +686,10 @@ def search_articles_for_group(media_group_name, domains):
             if not article_url:
                 continue
 
-            domain = extract_domain(article_url)
+            domain = normalize_domain(extract_domain(article_url))
 
             if not domain:
-                domain = domains[0]
+                domain = normalize_domain(domains[0])
 
             category = categorize_article(title, description)
             people = detect_people(article)
