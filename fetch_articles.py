@@ -20,6 +20,18 @@ NEWS_DOMAINS = [
     "insideparadeplatz.ch",
     "bbc.com",
 
+    # Foreign policy / strategy magazines
+    "foreignaffairs.com",
+    "foreignpolicy.com",
+    "thediplomat.com",
+    "nationalinterest.org",
+    "warontherocks.com",
+    "worldpoliticsreview.com",
+    "geopoliticalmonitor.com",
+    "responsiblestatecraft.org",
+    "lawfaremedia.org",
+    "mondediplo.com",
+
     # Russian media
     "themoscowtimes.com",
     "kommersant.ru",
@@ -182,6 +194,18 @@ SOURCE_IMPORTANCE = {
     "insideparadeplatz.ch": 5,
     "zerohedge.com": 5,
 
+    # Foreign policy / strategy magazines
+    "foreignaffairs.com": 10,
+    "foreignpolicy.com": 10,
+    "thediplomat.com": 8,
+    "nationalinterest.org": 8,
+    "warontherocks.com": 9,
+    "worldpoliticsreview.com": 8,
+    "geopoliticalmonitor.com": 7,
+    "responsiblestatecraft.org": 7,
+    "lawfaremedia.org": 8,
+    "mondediplo.com": 8,
+
     # Think tanks
     "csis.org": 10,
     "rand.org": 10,
@@ -312,7 +336,9 @@ def categorize_article(title, description):
         "defence spending",
         "defense spending",
         "cyber",
-        "hybrid war"
+        "hybrid war",
+        "deterrence",
+        "eastern flank"
     ]):
         return "Security"
 
@@ -396,6 +422,20 @@ def categorize_article(title, description):
     ]):
         return "Asia / Indo-Pacific"
 
+    if any(word in text for word in [
+        "strategy",
+        "grand strategy",
+        "geopolitics",
+        "foreign policy",
+        "international order",
+        "power competition",
+        "great-power",
+        "great power",
+        "alliance",
+        "transatlantic"
+    ]):
+        return "Foreign Policy / Strategy"
+
     return "General Poland"
 
 
@@ -428,7 +468,7 @@ def calculate_importance(article, domain, keyword, category):
     else:
         score += 2
 
-    if category in ["Security", "Politics", "Ukraine / Russia / Belarus"]:
+    if category in ["Security", "Politics", "Ukraine / Russia / Belarus", "Foreign Policy / Strategy"]:
         score += 5
     elif category in ["Economy", "Europe / EU", "Asia / Indo-Pacific"]:
         score += 4
@@ -582,7 +622,7 @@ def main():
     old_articles = load_existing_articles()
     new_articles = []
 
-    new_articles.extend(search_articles(NEWS_DOMAINS, "Newspaper"))
+    new_articles.extend(search_articles(NEWS_DOMAINS, "Newspaper / Magazine"))
     new_articles.extend(search_articles(THINK_TANK_DOMAINS, "Think Tank"))
 
     all_articles = old_articles + new_articles
