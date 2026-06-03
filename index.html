@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PolskaNewsy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    input, select, button {
+      padding: 10px;
+      margin: 5px 5px 15px 0;
+      font-size: 15px;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    .stats {
+      margin: 20px 0;
+      font-weight: bold;
+    }
+
+    .article {
+      background: white;
+      padding: 15px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      border-left: 5px solid #333;
+    }
+
+    .meta {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .description {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>PolskaNewsy</h1>
+  <div class="subtitle">Monitoring światowych gazet i think tanków o Polsce</div>
+
+  <input type="text" id="searchInput" placeholder="Search: NATO, economy, Warsaw, EU...">
+
+  <select id="sourceTypeFilter">
+    <option value="">All sources</option>
+    <option value="Newspaper">Newspapers</option>
+    <option value="Think Tank">Think Tanks</option>
+  </select>
+
+  <select id="categoryFilter">
+    <option value="">All categories</option>
+    <option value="Security">Security</option>
+    <option value="Economy">Economy</option>
+    <option value="Europe / EU">Europe / EU</option>
+    <option value="Politics">Politics</option>
+    <option value="General">General</option>
+  </select>
+
+  <button onclick="showAll()">Show all</button>
+  <button onclick="showToday()">Today</button>
+  <button onclick="quickSearch('nato')">NATO</button>
+  <button onclick="quickSearch('economy')">Economy</button>
+  <button onclick="quickSearch('ukraine')">Ukraine</button>
+  <button onclick="quickSearch('eu')">EU</button>
+
+  <div class="stats" id="stats">Loading articles...</div>
+
+  <div id="articles"></div>
+
+  <script>
+    let allArticles = [];
+
+    async function loadArticles() {
+      try {
+        const response = await fetch("data/articles.json");
+        allArticles = await response.json();
+        displayArticles(allArticles);
+      } catch (error) {
+        document.getElementById("stats").innerText = "Could not load articles.json";
+        console.error(error);
+      }
+    }
+
+    function displayArticles(articles) {
+      const container = document.getElementById("articles");
+      const stats = document.getElementById("stats");
+
+      stats.innerText = "Found " + articles.length + " articles.";
+
+      container.innerHTML = "";
+
+      if (articles.length === 0) {
+        container.innerHTML = "<p>No articles found.</p>";
+        return;
+      }
+
+      articles.forEach(article => {
+        const div = document.createElement("div");
+        div.className = "article";
+
+        div.innerHTML = `
+          <div class="meta">
+            ${article.source_type || "Unknown"} | 
+            ${article.source || "Unknown source"} | 
+            ${article.category || "No category"} | 
+            ${article.published_at || ""}
+          </div>
+          <div class="title">${article.title || "No title"}</div>
+          <div class="description">${article.description || ""}</div>
+          <a href="${article.url}" target="_blank">Open article</a>
+        `;
+
+        container.appendChild(div);
+      });
+    }
+
+    function applyFilters() {
+      const searchText = document.getElementById("searchInput").value.toLowerCase();
+      const sourceType = document.getElementById("sourceTypeFilter").value;
+      const category = document.getElementById("categoryFilter").value;
+
+      let filtered = allArticles.filter(article => {
+        const fullText = `
+          ${article.title || ""}
+          ${article.description || ""}
+          ${article.source || ""}
+          ${article.keyword || ""}
+          ${article.category || ""}
+        `.toLowerCase();
+
+        const matchesSearch = fullText.includes(searchText);
+        const matchesSourceType = sourceType === "" || article.source_type === sourceType;
+        const matchesCategory = category === "" || article.category === category;
+
+        return matchesSearch && matchesSourceType && matchesCategory;
+      });
+
+      displayArticles(filtered);
+    }
+
+    function showAll() {
+      document.getElementById("searchInput").value = "";
+      document.getElementById("sourceTypeFilter").value = "";
+      document.getElementById("categoryFilter").value = "";
+      displayArticles(allArticles);
+    }
+
+    function showToday() {
+      const today = new Date().toISOString().slice(0, 10);
+
+      const todayArticles = allArticles.filter(article => {
+        if (!article.published_at) return false;
+        return article.published_at.slice(0, 10) === today;
+      });
+
+      displayArticles(todayArticles);
+    }
+
+    function quickSearch(word) {
+      document.getElementById("searchInput").value = word;
+      applyFilters();
+    }
+
+    document.getElementById("searchInput").addEventListener("input", applyFilters);
+    document.getElementById("sourceTypeFilter").addEventListener("change", applyFilters);
+    document.getElementById("categoryFilter").addEventListener("change", applyFilters);
+
+    loadArticles();
+  </script>
+
+</body>
+</html>
