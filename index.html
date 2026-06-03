@@ -108,7 +108,7 @@
         allArticles = await response.json();
         displayArticles(allArticles);
       } catch (error) {
-        document.getElementById("stats").innerText = "Could not load articles.json";
+        document.getElementById("stats").innerText = "Could not load data/articles.json";
         console.error(error);
       }
     }
@@ -132,9 +132,9 @@
 
         div.innerHTML = `
           <div class="meta">
-            ${article.source_type || "Unknown"} | 
-            ${article.source || "Unknown source"} | 
-            ${article.category || "No category"} | 
+            ${article.source_type || "Unknown"} |
+            ${article.source || "Unknown source"} |
+            ${article.category || "No category"} |
             ${article.published_at || ""}
           </div>
           <div class="title">${article.title || "No title"}</div>
