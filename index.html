@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>PolskaNewsy</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 1100px;
+      max-width: 1150px;
       margin: 40px auto;
       padding: 20px;
       background: #f5f5f5;
@@ -35,6 +36,12 @@
     .stats {
       margin: 20px 0;
       font-weight: bold;
+    }
+
+    .debug {
+      margin: 10px 0 20px 0;
+      color: #666;
+      font-size: 13px;
     }
 
     .article {
@@ -66,6 +73,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <h1>PolskaNewsy</h1>
@@ -82,6 +90,7 @@
     <option value="Asian media">Asian media</option>
     <option value="Foreign policy / strategy magazines">Foreign policy / strategy magazines</option>
     <option value="Think tanks">Think tanks</option>
+    <option value="Other">Other</option>
   </select>
 
   <select id="categoryFilter">
@@ -104,6 +113,7 @@
   <button onclick="setDateFilter('today')">Today</button>
   <button onclick="setDateFilter('7')">Last 7 days</button>
   <button onclick="setDateFilter('30')">Last 30 days</button>
+  <button onclick="resetFilters()">Reset filters</button>
 
   <br>
 
@@ -119,6 +129,7 @@
   <button onclick="quickSearch('china')">China</button>
 
   <div class="stats" id="stats">Loading articles...</div>
+  <div class="debug" id="debug"></div>
 
   <div id="articles"></div>
 
@@ -138,6 +149,10 @@
       "spiegel.de",
       "bild.de",
       "wsj.com",
+      "ft.com",
+      "faz.net",
+      "faz.de",
+      "weltwoche.ch",
       "politico.eu",
       "zerohedge.com",
       "insideparadeplatz.ch",
@@ -184,6 +199,7 @@
     const FOREIGN_POLICY_MAGAZINES = [
       "foreignaffairs.com",
       "foreignpolicy.com",
+      "thefp.com",
       "thediplomat.com",
       "nationalinterest.org",
       "warontherocks.com",
@@ -209,7 +225,22 @@
     async function loadArticles() {
       try {
         const response = await fetch("data/articles.json?cache=" + new Date().getTime());
-        allArticles = await response.json();
+
+        if (!response.ok) {
+          document.getElementById("stats").innerText = "Could not load data/articles.json";
+          document.getElementById("debug").innerText = "HTTP status: " + response.status;
+          return;
+        }
+
+        const data = await response.json();
+
+        if (!Array.isArray(data)) {
+          document.getElementById("stats").innerText = "articles.json is not an array.";
+          document.getElementById("debug").innerText = "Check data/articles.json format.";
+          return;
+        }
+
+        allArticles = data;
 
         allArticles.sort((a, b) => {
           const dateA = new Date(a.published_at || 0);
@@ -218,20 +249,61 @@
         });
 
         applyFilters();
+
       } catch (error) {
         document.getElementById("stats").innerText = "Could not load data/articles.json";
+        document.getElementById("debug").innerText = error;
         console.error(error);
       }
     }
 
-    function getMediaGroup(article) {
-      const domain = article.source_domain || "";
+    function getDomain(article) {
+      if (article.source_domain) {
+        return normalizeDomain(article.source_domain);
+      }
 
-      if (article.source_type === "Think Tank" || THINK_TANKS.includes(domain)) {
+      if (article.url) {
+        try {
+          const parsedUrl = new URL(article.url);
+          return normalizeDomain(parsedUrl.hostname);
+        } catch (error) {
+          return "";
+        }
+      }
+
+      return "";
+    }
+
+    function normalizeDomain(domain) {
+      domain = (domain || "").toLowerCase().replace("www.", "");
+
+      if (domain.endsWith(".bbc.com")) return "bbc.com";
+      if (domain.endsWith(".wsj.com")) return "wsj.com";
+      if (domain.endsWith(".ft.com")) return "ft.com";
+      if (domain.endsWith(".faz.net")) return "faz.net";
+      if (domain.endsWith(".nzz.ch")) return "nzz.ch";
+
+      return domain;
+    }
+
+    function getMediaGroup(article) {
+      if (article.media_group) {
+        return article.media_group;
+      }
+
+      const domain = getDomain(article);
+      const sourceName = (article.source || "").toLowerCase();
+      const sourceType = (article.source_type || "").toLowerCase();
+
+      if (sourceType.includes("think") || THINK_TANKS.includes(domain)) {
         return "Think tanks";
       }
 
-      if (POLISH_MEDIA.includes(domain)) {
+      if (
+        POLISH_MEDIA.includes(domain) ||
+        sourceName.includes("onet") ||
+        sourceName.includes("do rzeczy")
+      ) {
         return "Polish media";
       }
 
@@ -251,7 +323,18 @@
         return "Foreign policy / strategy magazines";
       }
 
-      if (EUROPEAN_WESTERN_MEDIA.includes(domain)) {
+      if (
+        EUROPEAN_WESTERN_MEDIA.includes(domain) ||
+        sourceName.includes("bbc") ||
+        sourceName.includes("politico") ||
+        sourceName.includes("wall street journal") ||
+        sourceName.includes("financial times") ||
+        sourceName.includes("le monde") ||
+        sourceName.includes("spiegel") ||
+        sourceName.includes("nzz") ||
+        sourceName.includes("faz") ||
+        sourceName.includes("weltwoche")
+      ) {
         return "European / Western media";
       }
 
@@ -261,8 +344,10 @@
     function displayArticles(articles) {
       const container = document.getElementById("articles");
       const stats = document.getElementById("stats");
+      const debug = document.getElementById("debug");
 
       stats.innerText = "Showing " + articles.length + " articles.";
+      debug.innerText = "Loaded total from JSON: " + allArticles.length + " articles. Current date filter: " + currentDateFilter;
 
       container.innerHTML = "";
 
@@ -280,19 +365,20 @@
           : "None detected";
 
         const mediaGroup = getMediaGroup(article);
+        const domain = getDomain(article);
 
         div.innerHTML = `
           <div class="meta">
             ${mediaGroup} |
             ${article.source || "Unknown source"} |
-            ${article.source_domain || ""} |
+            ${domain || "No domain"} |
             ${article.category || "No topic category"} |
             ${formatDate(article.published_at)}
           </div>
 
-          <div class="title">${article.title || "No title"}</div>
+          <div class="title">${escapeHtml(article.title || "No title")}</div>
 
-          <div class="description">${article.description || ""}</div>
+          <div class="description">${escapeHtml(article.description || "")}</div>
 
           <div class="meta">
             Keyword: ${article.keyword || "None"} |
@@ -307,26 +393,27 @@
     }
 
     function applyFilters() {
-      const searchText = document.getElementById("searchInput").value.toLowerCase();
+      const searchText = document.getElementById("searchInput").value.toLowerCase().trim();
       const mediaGroup = document.getElementById("mediaGroupFilter").value;
       const category = document.getElementById("categoryFilter").value;
 
       let filtered = allArticles.filter(article => {
         const peopleText = Array.isArray(article.people) ? article.people.join(" ") : "";
         const articleMediaGroup = getMediaGroup(article);
+        const domain = getDomain(article);
 
         const fullText = `
           ${article.title || ""}
           ${article.description || ""}
           ${article.source || ""}
-          ${article.source_domain || ""}
+          ${domain || ""}
           ${article.keyword || ""}
           ${article.category || ""}
           ${peopleText}
           ${articleMediaGroup}
         `.toLowerCase();
 
-        const matchesSearch = fullText.includes(searchText);
+        const matchesSearch = searchText === "" || fullText.includes(searchText);
         const matchesMediaGroup = mediaGroup === "" || articleMediaGroup === mediaGroup;
         const matchesCategory = category === "" || article.category === category;
         const matchesDate = matchesDateFilter(article);
@@ -387,6 +474,14 @@
       applyFilters();
     }
 
+    function resetFilters() {
+      document.getElementById("searchInput").value = "";
+      document.getElementById("mediaGroupFilter").value = "";
+      document.getElementById("categoryFilter").value = "";
+      currentDateFilter = "all";
+      applyFilters();
+    }
+
     function formatDate(dateString) {
       if (!dateString) {
         return "No date";
@@ -399,6 +494,12 @@
       }
 
       return date.toLocaleString();
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement("div");
+      div.innerText = text;
+      return div.innerHTML;
     }
 
     document.getElementById("searchInput").addEventListener("input", applyFilters);
