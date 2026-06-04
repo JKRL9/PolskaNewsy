@@ -95,150 +95,61 @@ MEDIA_GROUPS = {
 
 POLAND_TERMS = [
     # English
-    "Poland",
-    "Polish",
-    "Warsaw",
-    "Polish government",
-    "Polish economy",
-    "Polish security",
-    "Polish military",
-    "Poland NATO",
-    "Poland EU",
-    "Poland Ukraine",
+    "Poland", "Polish", "Warsaw",
+    "Polish government", "Polish economy", "Polish security",
+    "Polish military", "Poland NATO", "Poland EU", "Poland Ukraine",
 
     # Polish
-    "Polska",
-    "Polski",
-    "Polskę",
-    "Polsce",
-    "Polaków",
-    "Warszawa",
-    "rząd Polski",
-    "polska gospodarka",
-    "polskie wojsko",
-    "polskie bezpieczeństwo",
+    "Polska", "Polski", "Polskę", "Polsce", "Polaków", "Warszawa",
+    "rząd Polski", "polska gospodarka", "polskie wojsko", "polskie bezpieczeństwo",
 
     # German
-    "Polen",
-    "polnisch",
-    "polnische",
-    "polnischer",
-    "Warschau",
-    "polnische Regierung",
-    "polnische Wirtschaft",
-    "polnisches Militär",
+    "Polen", "polnisch", "polnische", "polnischer", "Warschau",
+    "polnische Regierung", "polnische Wirtschaft", "polnisches Militär",
 
     # French
-    "Pologne",
-    "polonais",
-    "polonaise",
-    "Varsovie",
-    "gouvernement polonais",
-    "économie polonaise",
+    "Pologne", "polonais", "polonaise", "Varsovie",
+    "gouvernement polonais", "économie polonaise",
 
     # Spanish
-    "Polonia",
-    "polaco",
-    "polaca",
-    "Varsovia",
-    "gobierno polaco",
+    "Polonia", "polaco", "polaca", "Varsovia", "gobierno polaco",
 
     # Italian
-    "Polonia",
-    "polacco",
-    "polacca",
-    "Varsavia",
-    "governo polacco",
-
-    # Russian
-    "Польша",
-    "Польши",
-    "Польшу",
-    "Польше",
-    "польский",
-    "польская",
-    "польское",
-    "Варшава",
-    "польское правительство",
-    "польская экономика",
-    "польская армия",
-
-    # Belarusian
-    "Польшча",
-    "Польшчы",
-    "Польшчу",
-    "польскі",
-    "польская",
-    "Варшава",
-
-    # Ukrainian
-    "Польща",
-    "Польщі",
-    "Польщу",
-    "польський",
-    "польська",
-    "польське",
-    "Варшава",
-    "польський уряд",
-    "польська економіка",
-    "польська армія",
-
-    # Chinese simplified / traditional
-    "波兰",
-    "波蘭",
-    "华沙",
-    "華沙",
-    "波兰政府",
-    "波蘭政府",
-    "波兰经济",
-    "波蘭經濟",
-    "波兰军队",
-    "波蘭軍隊",
-
-    # Japanese
-    "ポーランド",
-    "ポランド",
-    "ワルシャワ",
-    "ポーランド政府",
-    "ポーランド経済",
-    "ポーランド軍",
-
-    # Korean
-    "폴란드",
-    "바르샤바",
-    "폴란드 정부",
-    "폴란드 경제",
-    "폴란드 군대",
+    "Polonia", "polacco", "polacca", "Varsavia", "governo polacco",
 
     # Portuguese
-    "Polônia",
-    "Polonia",
-    "polonês",
-    "polonesa",
-    "Varsóvia",
+    "Polônia", "polonês", "polonesa", "Varsóvia",
 
-    # Dutch
-    "Polen",
-    "Pools",
-    "Poolse",
-    "Warschau",
+    # Russian
+    "Польша", "Польши", "Польшу", "Польше",
+    "польский", "польская", "польское", "Варшава",
+    "польское правительство", "польская экономика", "польская армия",
 
-    # Swedish / Norwegian / Danish
-    "Polen",
-    "polsk",
-    "polska",
-    "Warszawa",
+    # Belarusian
+    "Польшча", "Польшчы", "Польшчу", "польскі", "польская", "Варшава",
 
-    # Czech / Slovak
-    "Polsko",
-    "polský",
-    "polská",
-    "Varšava",
+    # Ukrainian
+    "Польща", "Польщі", "Польщу",
+    "польський", "польська", "польське", "Варшава",
+    "польський уряд", "польська економіка", "польська армія",
 
-    # Hungarian
-    "Lengyelország",
-    "lengyel",
-    "Varsó"
+    # Chinese simplified / traditional
+    "波兰", "波蘭", "华沙", "華沙",
+    "波兰政府", "波蘭政府", "波兰经济", "波蘭經濟",
+    "波兰军队", "波蘭軍隊",
+
+    # Japanese
+    "ポーランド", "ポランド", "ワルシャワ",
+    "ポーランド政府", "ポーランド経済", "ポーランド軍",
+
+    # Korean
+    "폴란드", "바르샤바", "폴란드 정부", "폴란드 경제", "폴란드 군대",
+
+    # Dutch / Nordic / Czech / Slovak / Hungarian
+    "Polen", "Pools", "Poolse", "Warschau",
+    "polsk", "polska", "Warszawa",
+    "Polsko", "polský", "polská", "Varšava",
+    "Lengyelország", "lengyel", "Varsó"
 ]
 
 POLITICIANS = [
@@ -390,16 +301,12 @@ def normalize_domain(domain):
 
     if domain.endswith(".ft.com"):
         return "ft.com"
-
     if domain.endswith(".bbc.com"):
         return "bbc.com"
-
     if domain.endswith(".wsj.com"):
         return "wsj.com"
-
     if domain.endswith(".faz.net"):
         return "faz.net"
-
     if domain.endswith(".nzz.ch"):
         return "nzz.ch"
 
@@ -427,6 +334,43 @@ def is_really_about_poland(article):
     return False
 
 
+def is_sports_article(article):
+    text = article_text(article)
+
+    sports_terms = [
+        # English
+        "football", "soccer", "match", "matches", "goal", "goals",
+        "premier league", "champions league", "europa league",
+        "world cup", "euro 2024", "euro 2025", "euro 2026",
+        "fifa", "uefa", "club", "clubs", "transfer", "transfers",
+        "striker", "midfielder", "defender", "goalkeeper",
+        "coach", "manager", "league", "tournament", "fixture",
+        "tennis", "basketball", "volleyball", "skiing", "athletics",
+        "formula 1", "f1", "olympics", "olympic", "sport", "sports",
+
+        # Polish
+        "piłka nożna", "pilka nozna", "mecz", "meczu", "bramka", "bramki",
+        "gole", "liga", "ekstraklasa", "transfer", "napastnik", "pomocnik",
+        "obrońca", "obronca", "bramkarz", "trener", "reprezentacja polski",
+        "sport", "sportowy", "sportowa", "zawodnik", "zawodniczka",
+
+        # German / French
+        "fußball", "fussball", "bundesliga", "tor", "tore", "spieler",
+        "trainer", "verein", "joueur", "entraîneur", "entraineur", "ligue",
+
+        # Russian / Ukrainian
+        "футбол", "матч", "гол", "лига", "трансфер", "игрок", "спорт",
+        "футболіст", "ліга", "гравець",
+
+        # Chinese / Japanese / Korean
+        "足球", "比赛", "比賽", "进球", "進球", "体育", "體育",
+        "サッカー", "フットボール", "試合", "ゴール", "スポーツ",
+        "축구", "경기", "골", "스포츠"
+    ]
+
+    return any(term in text for term in sports_terms)
+
+
 def detect_people(article):
     text = article_text(article)
     found_people = []
@@ -436,16 +380,6 @@ def detect_people(article):
             found_people.append(person)
 
     return sorted(list(set(found_people)))
-
-
-def detect_media_group(domain):
-    domain = normalize_domain(domain)
-
-    for group_name, domains in MEDIA_GROUPS.items():
-        if domain in domains:
-            return group_name
-
-    return "Other"
 
 
 def categorize_article(title, description):
@@ -505,7 +439,7 @@ def categorize_article(title, description):
     if any(word in text for word in [
         "china", "chinese", "beijing", "japan", "tokyo", "singapore",
         "asia", "indo-pacific", "chiny", "japonia", "singapur",
-        "中国", "日本", "新加坡", "アジア", "日本", "シンガポール"
+        "中国", "日本", "新加坡", "アジア", "シンガポール"
     ]):
         return "Asia / Indo-Pacific"
 
@@ -578,12 +512,7 @@ def importance_label(score):
 
 
 def make_or_query(terms):
-    quoted_terms = []
-
-    for term in terms:
-        quoted_terms.append(f'"{term}"')
-
-    return " OR ".join(quoted_terms)
+    return " OR ".join([f'"{term}"' for term in terms])
 
 
 def build_query(query_group):
@@ -602,37 +531,7 @@ def build_query(query_group):
         ]
         return make_or_query(important_terms)
 
-    if query_group == "security_terms":
-        return (
-            '(Poland OR Polish OR Polska OR Polen OR Pologne OR Польша OR Польща OR 波兰 OR ポーランド) '
-            'AND '
-            '(NATO OR security OR military OR defence OR defense OR Ukraine OR Russia OR war)'
-        )
-
-    if query_group == "politicians":
-        top_politicians = [
-            "Donald Tusk",
-            "Karol Nawrocki",
-            "Radosław Sikorski",
-            "Radoslaw Sikorski",
-            "Krzysztof Bosak",
-            "Andrzej Duda",
-            "Jarosław Kaczyński",
-            "Jaroslaw Kaczynski",
-            "Mateusz Morawiecki",
-            "Rafał Trzaskowski",
-            "Rafal Trzaskowski",
-            "Sławomir Mentzen",
-            "Slawomir Mentzen"
-        ]
-
-        return (
-            '(' + make_or_query(top_politicians) + ') '
-            'AND '
-            '(Poland OR Polish OR Polska OR Warsaw OR Warszawa OR Polen OR Польша OR Польща OR 波兰 OR ポーランド)'
-        )
-
-    return "Poland OR Polish OR Warsaw"
+    return '"Poland" OR "Polish" OR "Warsaw"'
 
 
 def search_articles_for_group(media_group_name, domains):
@@ -640,11 +539,7 @@ def search_articles_for_group(media_group_name, domains):
     results = []
 
     domain_string = ",".join(domains)
-
-    query_groups = [
-        "country_terms",
-        
-    ]
+    query_groups = ["country_terms"]
 
     for query_group in query_groups:
         query = build_query(query_group)
@@ -676,6 +571,9 @@ def search_articles_for_group(media_group_name, domains):
 
         for article in data.get("articles", []):
             if not is_really_about_poland(article):
+                continue
+
+            if is_sports_article(article):
                 continue
 
             title = article.get("title") or ""
@@ -758,6 +656,11 @@ def main():
     all_articles = old_articles + new_articles
     all_articles = remove_duplicates(all_articles)
 
+    all_articles = [
+        article for article in all_articles
+        if not is_sports_article(article)
+    ]
+
     all_articles = sorted(
         all_articles,
         key=lambda x: x.get("published_at") or "",
@@ -765,7 +668,7 @@ def main():
     )
 
     print(f"Found {len(new_articles)} new raw articles.")
-    print(f"Saved {len(all_articles)} total unique articles.")
+    print(f"Saved {len(all_articles)} total unique articles after removing sports articles.")
 
     save_articles(all_articles)
 
