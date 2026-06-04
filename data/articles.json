@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-06-04T16:40:37.128519",
+    "published_at": "2026-06-03T13:06:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Польща офіційно запропонувала Пентагону створити нову військову базу США в країні",
+    "description": "Міністр оборони Польщі передав Пентагону пропозицію щодо відкриття постійної бази американських військ у країні.",
+    "url": "https://www.pravda.com.ua/news/2026/06/03/8037601/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-04T16:40:37.128667",
+    "published_at": "2026-06-03T13:06:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Польша официально предложила Пентагону создать новую военную базу США в стране",
+    "description": "Министр обороны Польши передал Пентагону предложение относительно открытия постоянной базы американских войск в стране.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/06/03/8037601/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-04T08:48:35.913702",
     "published_at": "2026-06-02T14:17:49Z",
     "source_type": "Newspaper / Magazine",
