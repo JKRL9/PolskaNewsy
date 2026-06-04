@@ -12,24 +12,25 @@ MEDIA_GROUPS = {
         "onet.pl"
     ],
 
-    "European / Western media": [
+    "EU media": [
         "lemonde.fr",
-        "20min.ch",
-        "nzz.ch",
         "spiegel.de",
         "bild.de",
-        "wsj.com",
-        "ft.com",
         "faz.net",
         "faz.de",
-        "weltwoche.ch",
         "politico.eu",
-        "zerohedge.com",
-        "insideparadeplatz.ch",
-        "bbc.com"
+        "mondediplo.com"
     ],
 
-    "Foreign policy / strategy magazines": [
+    "Western media": [
+        "bbc.com",
+        "wsj.com",
+        "ft.com",
+        "nzz.ch",
+        "20min.ch",
+        "weltwoche.ch",
+        "insideparadeplatz.ch",
+        "zerohedge.com",
         "foreignaffairs.com",
         "foreignpolicy.com",
         "thefp.com",
@@ -39,11 +40,10 @@ MEDIA_GROUPS = {
         "worldpoliticsreview.com",
         "geopoliticalmonitor.com",
         "responsiblestatecraft.org",
-        "lawfaremedia.org",
-        "mondediplo.com"
+        "lawfaremedia.org"
     ],
 
-    "Russian / Belarusian media": [
+    "Eastern media": [
         "themoscowtimes.com",
         "kommersant.ru",
         "rbc.ru",
@@ -53,10 +53,7 @@ MEDIA_GROUPS = {
         "charter97.org",
         "belsat.eu",
         "euroradio.fm",
-        "reform.news"
-    ],
-
-    "Ukrainian media": [
+        "reform.news",
         "kyivindependent.com",
         "pravda.com.ua",
         "zn.ua",
@@ -94,60 +91,42 @@ MEDIA_GROUPS = {
 }
 
 POLAND_TERMS = [
-    # English
     "Poland", "Polish", "Warsaw",
     "Polish government", "Polish economy", "Polish security",
     "Polish military", "Poland NATO", "Poland EU", "Poland Ukraine",
 
-    # Polish
     "Polska", "Polski", "Polskę", "Polsce", "Polaków", "Warszawa",
     "rząd Polski", "polska gospodarka", "polskie wojsko", "polskie bezpieczeństwo",
 
-    # German
     "Polen", "polnisch", "polnische", "polnischer", "Warschau",
     "polnische Regierung", "polnische Wirtschaft", "polnisches Militär",
 
-    # French
     "Pologne", "polonais", "polonaise", "Varsovie",
     "gouvernement polonais", "économie polonaise",
 
-    # Spanish
     "Polonia", "polaco", "polaca", "Varsovia", "gobierno polaco",
-
-    # Italian
-    "Polonia", "polacco", "polacca", "Varsavia", "governo polacco",
-
-    # Portuguese
+    "polacco", "polacca", "Varsavia", "governo polacco",
     "Polônia", "polonês", "polonesa", "Varsóvia",
 
-    # Russian
     "Польша", "Польши", "Польшу", "Польше",
     "польский", "польская", "польское", "Варшава",
     "польское правительство", "польская экономика", "польская армия",
 
-    # Belarusian
     "Польшча", "Польшчы", "Польшчу", "польскі", "польская", "Варшава",
 
-    # Ukrainian
     "Польща", "Польщі", "Польщу",
     "польський", "польська", "польське", "Варшава",
     "польський уряд", "польська економіка", "польська армія",
 
-    # Chinese simplified / traditional
     "波兰", "波蘭", "华沙", "華沙",
     "波兰政府", "波蘭政府", "波兰经济", "波蘭經濟",
     "波兰军队", "波蘭軍隊",
 
-    # Japanese
     "ポーランド", "ポランド", "ワルシャワ",
     "ポーランド政府", "ポーランド経済", "ポーランド軍",
 
-    # Korean
     "폴란드", "바르샤바", "폴란드 정부", "폴란드 경제", "폴란드 군대",
 
-    # Dutch / Nordic / Czech / Slovak / Hungarian
-    "Polen", "Pools", "Poolse", "Warschau",
-    "polsk", "polska", "Warszawa",
     "Polsko", "polský", "polská", "Varšava",
     "Lengyelország", "lengyel", "Varsó"
 ]
@@ -212,81 +191,6 @@ POLITICIANS = [
     "Piotr Gliński"
 ]
 
-SOURCE_IMPORTANCE = {
-    "bbc.com": 10,
-    "wsj.com": 10,
-    "ft.com": 10,
-    "politico.eu": 9,
-    "lemonde.fr": 9,
-    "spiegel.de": 9,
-    "nzz.ch": 8,
-    "faz.net": 9,
-    "faz.de": 9,
-    "weltwoche.ch": 7,
-    "onet.pl": 7,
-    "dorzeczy.pl": 6,
-    "20min.ch": 5,
-    "bild.de": 6,
-    "insideparadeplatz.ch": 5,
-    "zerohedge.com": 5,
-
-    "foreignaffairs.com": 10,
-    "foreignpolicy.com": 10,
-    "thefp.com": 8,
-    "thediplomat.com": 8,
-    "nationalinterest.org": 8,
-    "warontherocks.com": 9,
-    "worldpoliticsreview.com": 8,
-    "geopoliticalmonitor.com": 7,
-    "responsiblestatecraft.org": 7,
-    "lawfaremedia.org": 8,
-    "mondediplo.com": 8,
-
-    "csis.org": 10,
-    "rand.org": 10,
-    "atlanticcouncil.org": 9,
-    "brookings.edu": 9,
-    "carnegieendowment.org": 9,
-    "cnas.org": 9,
-    "cepa.org": 8,
-    "heritage.org": 8,
-    "wilsoncenter.org": 8,
-
-    "themoscowtimes.com": 8,
-    "kommersant.ru": 7,
-    "rbc.ru": 7,
-    "vedomosti.ru": 7,
-    "novayagazeta.eu": 8,
-
-    "zerkalo.io": 7,
-    "charter97.org": 7,
-    "belsat.eu": 8,
-    "euroradio.fm": 6,
-    "reform.news": 6,
-
-    "kyivindependent.com": 9,
-    "pravda.com.ua": 8,
-    "zn.ua": 7,
-    "nv.ua": 7,
-    "liga.net": 7,
-
-    "chinadaily.com.cn": 7,
-    "globaltimes.cn": 7,
-    "english.news.cn": 8,
-    "en.people.cn": 7,
-    "scmp.com": 8,
-
-    "japantimes.co.jp": 8,
-    "asia.nikkei.com": 9,
-    "asahi.com": 8,
-    "mainichi.jp": 7,
-    "yomiuri.co.jp": 8,
-
-    "channelnewsasia.com": 8,
-    "straitstimes.com": 8,
-    "businesstimes.com.sg": 7
-}
-
 
 def extract_domain(url):
     try:
@@ -299,6 +203,8 @@ def extract_domain(url):
 def normalize_domain(domain):
     domain = (domain or "").lower().replace("www.", "")
 
+    if domain.endswith(".onet.pl"):
+        return "onet.pl"
     if domain.endswith(".ft.com"):
         return "ft.com"
     if domain.endswith(".bbc.com"):
@@ -317,7 +223,9 @@ def article_text(article):
     title = article.get("title") or ""
     description = article.get("description") or ""
     content = article.get("content") or ""
-    return f"{title} {description} {content}".lower()
+    url = article.get("url") or ""
+    source = article.get("source") or ""
+    return f"{title} {description} {content} {url} {source}".lower()
 
 
 def is_really_about_poland(article):
@@ -338,31 +246,37 @@ def is_sports_article(article):
     text = article_text(article)
 
     sports_terms = [
-        # English
+        "przegladsportowy", "przegląd sportowy", "sport.onet", "sports.onet",
+        "sport", "sports", "sportowy", "sportowa", "sportowe",
+
         "football", "soccer", "match", "matches", "goal", "goals",
         "premier league", "champions league", "europa league",
-        "world cup", "euro 2024", "euro 2025", "euro 2026",
-        "fifa", "uefa", "club", "clubs", "transfer", "transfers",
+        "world cup", "fifa", "uefa", "club", "clubs", "transfer", "transfers",
         "striker", "midfielder", "defender", "goalkeeper",
         "coach", "manager", "league", "tournament", "fixture",
+
         "tennis", "basketball", "volleyball", "skiing", "athletics",
-        "formula 1", "f1", "olympics", "olympic", "sport", "sports",
+        "formula 1", "f1", "olympics", "olympic",
 
-        # Polish
         "piłka nożna", "pilka nozna", "mecz", "meczu", "bramka", "bramki",
-        "gole", "liga", "ekstraklasa", "transfer", "napastnik", "pomocnik",
-        "obrońca", "obronca", "bramkarz", "trener", "reprezentacja polski",
-        "sport", "sportowy", "sportowa", "zawodnik", "zawodniczka",
+        "gole", "gol", "liga", "ekstraklasa", "transfer", "napastnik",
+        "pomocnik", "obrońca", "obronca", "bramkarz", "trener",
+        "reprezentacja polski", "zawodnik", "zawodniczka",
 
-        # German / French
+        "wisła kraków", "wisla krakow", "legia", "lech poznań", "lech poznan",
+        "raków", "rakow", "jagiellonia", "widzew", "pogoń", "pogon",
+
+        "lewandowski", "robert lewandowski", "arkadiusz milik", "milik",
+        "zieliński", "zielinski", "szczęsny", "szczesny", "piątek", "piatek",
+
         "fußball", "fussball", "bundesliga", "tor", "tore", "spieler",
-        "trainer", "verein", "joueur", "entraîneur", "entraineur", "ligue",
+        "trainer", "verein",
 
-        # Russian / Ukrainian
+        "joueur", "entraîneur", "entraineur", "ligue",
+
         "футбол", "матч", "гол", "лига", "трансфер", "игрок", "спорт",
-        "футболіст", "ліга", "гравець",
+        "футболіст", "гравець",
 
-        # Chinese / Japanese / Korean
         "足球", "比赛", "比賽", "进球", "進球", "体育", "體育",
         "サッカー", "フットボール", "試合", "ゴール", "スポーツ",
         "축구", "경기", "골", "스포츠"
@@ -454,84 +368,25 @@ def categorize_article(title, description):
     return "General Poland"
 
 
-def calculate_importance(article, domain, keyword_group, category):
-    domain = normalize_domain(domain)
-    score = 0
-
-    score += SOURCE_IMPORTANCE.get(domain, 3)
-
-    if keyword_group in ["politicians", "security_terms"]:
-        score += 5
-    elif keyword_group == "country_terms":
-        score += 3
-    else:
-        score += 2
-
-    if category in ["Security", "Politics", "Ukraine / Russia / Belarus", "Foreign Policy / Strategy"]:
-        score += 5
-    elif category in ["Economy", "Europe / EU", "Asia / Indo-Pacific"]:
-        score += 4
-    elif category == "Migration":
-        score += 4
-    else:
-        score += 2
-
-    published_at = article.get("publishedAt")
-
-    if published_at:
-        try:
-            published_date = datetime.fromisoformat(published_at.replace("Z", "+00:00"))
-            now = datetime.now(timezone.utc)
-            hours_old = (now - published_date).total_seconds() / 3600
-
-            if hours_old <= 24:
-                score += 5
-            elif hours_old <= 72:
-                score += 3
-            elif hours_old <= 168:
-                score += 2
-            else:
-                score += 1
-        except Exception:
-            pass
-
-    people_found = detect_people(article)
-    score += min(len(people_found) * 2, 6)
-
-    return score
-
-
-def importance_label(score):
-    if score >= 25:
-        return "Very High"
-    if score >= 18:
-        return "High"
-    if score >= 12:
-        return "Medium"
-    return "Low"
-
-
 def make_or_query(terms):
     return " OR ".join([f'"{term}"' for term in terms])
 
 
-def build_query(query_group):
-    if query_group == "country_terms":
-        important_terms = [
-            "Poland", "Polish", "Warsaw",
-            "Polska", "Polski", "Warszawa",
-            "Polen", "Warschau",
-            "Pologne", "Varsovie",
-            "Polonia", "Varsovia",
-            "Польша", "Польща", "Польшча",
-            "波兰", "波蘭", "华沙", "華沙",
-            "ポーランド", "ワルシャワ",
-            "폴란드", "바르샤바",
-            "Polsko", "Lengyelország"
-        ]
-        return make_or_query(important_terms)
+def build_query():
+    important_terms = [
+        "Poland", "Polish", "Warsaw",
+        "Polska", "Polski", "Warszawa",
+        "Polen", "Warschau",
+        "Pologne", "Varsovie",
+        "Polonia", "Varsovia",
+        "Польша", "Польща", "Польшча",
+        "波兰", "波蘭", "华沙", "華沙",
+        "ポーランド", "ワルシャワ",
+        "폴란드", "바르샤바",
+        "Polsko", "Lengyelország"
+    ]
 
-    return '"Poland" OR "Polish" OR "Warsaw"'
+    return make_or_query(important_terms)
 
 
 def search_articles_for_group(media_group_name, domains):
@@ -539,75 +394,69 @@ def search_articles_for_group(media_group_name, domains):
     results = []
 
     domain_string = ",".join(domains)
-    query_groups = ["country_terms"]
+    query = build_query()
 
-    for query_group in query_groups:
-        query = build_query(query_group)
+    params = {
+        "q": query,
+        "domains": domain_string,
+        "sortBy": "publishedAt",
+        "pageSize": 30,
+        "apiKey": API_KEY
+    }
 
-        params = {
-            "q": query,
-            "domains": domain_string,
-            "sortBy": "publishedAt",
-            "pageSize": 30,
-            "apiKey": API_KEY
-        }
+    print(f"Searching media group: {media_group_name}")
+    print("Query:", query[:250], "...")
 
-        print(f"Searching media group: {media_group_name} | query group: {query_group}")
-        print("Query:", query[:250], "...")
+    response = requests.get(url, params=params)
 
-        response = requests.get(url, params=params)
+    print("Status:", response.status_code)
 
-        print("Status:", response.status_code)
+    if response.status_code == 429:
+        print("Daily request limit reached.")
+        return results
 
-        if response.status_code == 429:
-            print("Daily request limit reached.")
-            return results
+    if response.status_code != 200:
+        print("Error:", response.text)
+        return results
 
-        if response.status_code != 200:
-            print("Error:", response.text)
+    data = response.json()
+
+    for article in data.get("articles", []):
+        if not is_really_about_poland(article):
             continue
 
-        data = response.json()
+        if is_sports_article(article):
+            continue
 
-        for article in data.get("articles", []):
-            if not is_really_about_poland(article):
-                continue
+        title = article.get("title") or ""
+        description = article.get("description") or ""
+        article_url = article.get("url") or ""
 
-            if is_sports_article(article):
-                continue
+        if not article_url:
+            continue
 
-            title = article.get("title") or ""
-            description = article.get("description") or ""
-            article_url = article.get("url") or ""
+        domain = normalize_domain(extract_domain(article_url))
 
-            if not article_url:
-                continue
+        if not domain:
+            domain = normalize_domain(domains[0])
 
-            domain = normalize_domain(extract_domain(article_url))
+        category = categorize_article(title, description)
+        people = detect_people(article)
 
-            if not domain:
-                domain = normalize_domain(domains[0])
-
-            category = categorize_article(title, description)
-            people = detect_people(article)
-            score = calculate_importance(article, domain, query_group, category)
-
-            results.append({
-                "fetched_at": datetime.utcnow().isoformat(),
-                "published_at": article.get("publishedAt"),
-                "source_type": "Think Tank" if media_group_name == "Think tanks" else "Newspaper / Magazine",
-                "media_group": media_group_name,
-                "source_domain": domain,
-                "source": article.get("source", {}).get("name"),
-                "title": title,
-                "description": description,
-                "url": article_url,
-                "keyword": query_group,
-                "category": category,
-                "people": people,
-                "importance_score": score,
-                "importance_label": importance_label(score)
-            })
+        results.append({
+            "fetched_at": datetime.utcnow().isoformat(),
+            "published_at": article.get("publishedAt"),
+            "source_type": "Think Tank" if media_group_name == "Think tanks" else "Newspaper / Magazine",
+            "media_group": media_group_name,
+            "source_domain": domain,
+            "source": article.get("source", {}).get("name"),
+            "title": title,
+            "description": description,
+            "url": article_url,
+            "keyword": "country_terms",
+            "category": category,
+            "people": people
+        })
 
     return results
 
