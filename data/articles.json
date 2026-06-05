@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-06-05T08:16:28.207333",
+    "published_at": "2026-06-03T20:20:03Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Tausende Reservierungen - Massenansturm auf neues Mega-Hotel an der Ostsee",
+    "description": "Es wurde sogar extra der Eröffnungstermin des Hotels vorgezogen. Doch nicht alle freut das.",
+    "url": "https://www.bild.de/regional/ostsee/darum-eroeffnet-hotel-goebiewski-in-polen-an-der-ostsee-frueher-6a1fd4439d434f719fddef27",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-05T08:16:28.207577",
+    "published_at": "2026-06-03T17:58:55Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Poland pushes for permanent US base after Trump troop pivot",
+    "description": "As Europe faces a greater threat from Russia, Warsaw is keen to have U.S. troops stationed within the country's borders indefinitely.",
+    "url": "https://www.politico.eu/article/poland-permanent-us-base-donald-trump-soldiers/",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-04T16:40:37.128519",
     "published_at": "2026-06-03T13:06:00Z",
     "source_type": "Newspaper / Magazine",
