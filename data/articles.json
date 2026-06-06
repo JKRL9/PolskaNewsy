@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-06-06T08:23:56.292760",
+    "published_at": "2026-06-05T03:16:26Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Neue Studie zeigt - Koffein stört den Schlaf stärker als gedacht",
+    "description": "Stettiner Studie: Koffein reduziert Tiefschlafwellen und verändert nächtliche Hirnaktivität trotz normalem Schlafgefühl.",
+    "url": "https://www.bild.de/leben-wissen/ernaehrung-diaet/koffein-veraendert-schlaf-studie-zeigt-wie-das-gehirn-nachts-wacher-bleibt-6a19aebc411d40cd4c74bfa9",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-06T08:23:56.624383",
+    "published_at": "2026-06-04T14:31:58Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "vedomosti.ru",
+    "source": "Vedomosti.ru",
+    "title": "Польша выступила за отмену механизма защиты ЕС для украинцев призывного возраста",
+    "description": "",
+    "url": "https://www.vedomosti.ru/politics/news/2026/06/04/1203196-mehanizma-zaschiti-es-ukraintsev",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-06T08:23:56.624483",
+    "published_at": "2026-06-04T12:58:01Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "vedomosti.ru",
+    "source": "Vedomosti.ru",
+    "title": "Польша ограничит полеты у границы с Белоруссией и Украиной",
+    "description": "",
+    "url": "https://www.vedomosti.ru/politics/news/2026/06/04/1203137-polsha-ogranichit",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-05T10:43:38.938791",
     "published_at": "2026-06-04T10:28:36Z",
     "source_type": "Newspaper / Magazine",
