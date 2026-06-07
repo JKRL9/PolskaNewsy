@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-06-07T09:57:42.779736",
+    "published_at": "2026-06-06T08:00:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Польща-Україна: пробачаємо і просимо пробачення?",
+    "description": "Як історична пам’ять і політика впливають на сучасні відносини між Україною та Польщею",
+    "url": "https://www.pravda.com.ua/columns/2026/06/06/8037942/",
+    "keyword": "country_terms",
+    "category": "Ukraine / Russia / Belarus",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-07T09:57:42.374558",
+    "published_at": "2026-06-06T06:51:57Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Mutter festgenommen - Kind (5) stürzt aus 11. Etage und überlebt",
+    "description": "Als sich die Tragödie ereignete, war die Mutter mit ihrer Tochter allein in der Wohnung und habe geschlafen.",
+    "url": "https://www.bild.de/news/ausland/mutter-festgenommen-kind-5-stuerzt-aus-11-etage-und-ueberlebt-6a23a63bb20db0d89b6570a9",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-06T08:23:56.292760",
     "published_at": "2026-06-05T03:16:26Z",
     "source_type": "Newspaper / Magazine",
