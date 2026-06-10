@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-06-10T08:34:27.148062",
+    "published_at": "2026-06-09T05:00:15Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Western media",
+    "source_domain": "bbc.com",
+    "source": "BBC News",
+    "title": "Справа Білого Орла. Чому Україна та Польща знову посварилися і чи є шанс на примирення",
+    "description": "Українсько-польські стосунки опинилися на грані найсерйознішої кризи за останні роки. Символом цієї кризи можна вважати ініційовану президентом Польщі Каролем Навроцьким процедуру позбавлення Володимира Зеленського найвищої державної нагороди Польщі - Ордена …",
+    "url": "https://www.bbc.com/ukrainian/articles/cn0veqrp45yo",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-10T08:34:26.783697",
+    "published_at": "2026-06-09T04:00:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "\"Nie mogliśmy zrozumieć, jak to jest możliwe\". Ujawniamy nieznane fakty w sprawie afery podkarpackiej",
+    "description": "— Polska policja wykorzystywała agencje towarzyskie ukraińskich gangsterów do pracy operacyjnej. Pracujący pod przykrywką funkcjonariusze \"legendowali\" się w tych lokalach, czyli przez kontakt z braćmi Rysicz uwiarygadniali się w środowisku przestępczym. W pe…",
+    "url": "https://wiadomosci.onet.pl/tylko-w-onecie/sprawa-ma-drugie-dno-ujawniamy-nieznane-fakty-na-temat-afery-podkarpackiej/tp5hhlm",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-10T08:34:27.148209",
+    "published_at": "2026-06-09T03:58:36Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Western media",
+    "source_domain": "bbc.com",
+    "source": "BBC News",
+    "title": "Дело о Белом орле. Почему снова поссорились Украина и Польша, и есть ли перспективы мира?",
+    "description": "Украинско-польские отношения оказались на грани глубочайшего кризиса за последние годы. Символом этого кризиса может считаться инициированная президентом Польши Каролем Навроцким процедура лишения Владимира Зеленского высшей государственной награды Польши — О…",
+    "url": "https://www.bbc.com/russian/articles/ckg024x7k1no",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-09T19:19:07.819139",
     "published_at": "2026-06-08T16:06:55Z",
     "source_type": "Newspaper / Magazine",
