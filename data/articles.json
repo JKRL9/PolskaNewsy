@@ -1,5 +1,79 @@
 [
   {
+    "fetched_at": "2026-06-11T07:37:30.914654",
+    "published_at": "2026-06-09T22:03:06Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Western media",
+    "source_domain": "bbc.com",
+    "source": "BBC News",
+    "title": "Family in bid to find mum's Polish stem cell donor for second transfusion",
+    "description": "Lisa Semple, 58, was treated for leukaemia last year with a stem cell transplant from a 19-year-old man.",
+    "url": "https://www.bbc.com/news/articles/c1ey8xgvy9go",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-11T07:37:30.587614",
+    "published_at": "2026-06-09T16:34:25Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Weiße-Adler-Orden: Polen könnte Selenskyj höchste Ehrung aberkennen",
+    "description": "Wegen eines Geschichtsstreits herrscht zwischen Warschau und Kiew eine diplomatische Krise. Eine ukrainische Delegation konnte die Wogen nicht glätten.",
+    "url": "https://www.faz.net/aktuell/politik/streit-zwischen-polen-und-ukraine-eskaliert-200912115.html",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": [
+      "Karol Nawrocki"
+    ]
+  },
+  {
+    "fetched_at": "2026-06-11T07:37:30.587750",
+    "published_at": "2026-06-09T16:34:25Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Orden des Weißen Adlers: Polen könnte Selenskyj höchste die Ehrung aberkennen",
+    "description": "Wegen eines Geschichtsstreits herrscht zwischen Warschau und Kiew eine diplomatische Krise. Eine ukrainische Delegation konnte die Wogen nicht glätten.",
+    "url": "https://www.faz.net/aktuell/politik/ausland/streit-zwischen-polen-und-ukraine-eskaliert-200912115.html",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": [
+      "Karol Nawrocki"
+    ]
+  },
+  {
+    "fetched_at": "2026-06-11T07:37:31.042980",
+    "published_at": "2026-06-09T14:26:29Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "vedomosti.ru",
+    "source": "Vedomosti.ru",
+    "title": "Туск: Польша не даст Украине льгот для вступления в ЕС",
+    "description": "",
+    "url": "https://www.vedomosti.ru/politics/news/2026/06/09/1204678-tusk-polsha",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-11T07:37:30.463470",
+    "published_at": "2026-06-09T12:27:52Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Organizacja i oprawa mistrzostw świata 3x3 w Warszawie zrobiła wrażenie! „Polska pokazała, że jest gotowa na takie inicjatywy”",
+    "description": "Przez ostatni tydzień ścisłe centrum Warszawy należało do koszykarek i koszykarzy 3x3, którzy występowali w mistrzostwach świata, czyli najważniejszej imprezie w tej odmianie basketu. W niedzielny wieczór poznaliśmy nowych mistrzów, jednak zawody zrobiły ogro…",
+    "url": "https://wiadomosci.onet.pl/kraj/organizacja-i-oprawa-mistrzostw-swiata-3x3-w-warszawie-zrobila-wrazenie-polska/6l4qyl4",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-10T08:34:27.148062",
     "published_at": "2026-06-09T05:00:15Z",
     "source_type": "Newspaper / Magazine",
