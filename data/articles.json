@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-06-12T10:59:13.097925",
+    "published_at": "2026-06-10T16:45:19Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Counter Extremism Project: Organisation gegen Extremismus will Goebbels-Villa ausbauen",
+    "description": "Seit 25 Jahren steht die Goebbels-Villa nördlich von Berlin leer. Nun plant eine internationale Organisation ein Zentrum gegen Antisemitismus. Ein ähnliches Konzept gibt es bereits in Polen.",
+    "url": "https://www.faz.net/aktuell/feuilleton/organisation-gegen-extremismus-will-goebbels-villa-ausbauen-200918252.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-12T10:59:13.321997",
+    "published_at": "2026-06-10T16:16:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "ЗМІ: Берлін хоче віддати Україні розблоковані Будапештом 6,6 млрд, Польща має зауваження",
+    "description": "Німеччина хоче, щоб 6,6 млрд євро з Фонду миру, розблоковані Угорщиною, були передані Україні в повному обсязі, Польща ж має намір боротися за кожне євро.",
+    "url": "https://www.pravda.com.ua/news/2026/06/10/8038714/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-12T10:59:13.322134",
+    "published_at": "2026-06-10T16:16:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "СМИ: Берлин хочет передать Украине разблокированные Будапештом 6,6 млрд, у Польши иная позиция",
+    "description": "Германия хочет, чтобы 6,6 млрд евро из Фонда мира, разблокированные Венгрией, были переданы Украине в полном объеме, Польша же намерена бороться за каждый евро.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/06/10/8038714/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-11T11:20:51.624991",
     "published_at": "2026-06-10T09:57:20Z",
     "source_type": "Newspaper / Magazine",
