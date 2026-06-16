@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-06-16T06:50:30.486988",
+    "published_at": "2026-06-15T02:02:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Budget, alliances : Bardella veut toujours “tout changer” à l’UE",
+    "description": "A quelques jours de son premier déplacement en Pologne, le président du RN a répondu en exclusivité aux questions de POLITICO, depuis Bruxelles. L'occasion pour lui de préciser ses intentions vis-à-vis de l'Union européenne.",
+    "url": "https://www.politico.eu/article/budget-alliances-bardella-veut-toujours-tout-changer-a-lue/",
+    "keyword": "country_terms",
+    "category": "Economy",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-16T06:50:30.487237",
+    "published_at": "2026-06-15T01:06:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Liveblog Ukrainekrieg: Polen lässt wegen russischer Angriffe auf Ukraine Kampfjets aufsteigen",
+    "description": "Massive russische Angriffe auf Ukraine +++ Selenskyj will bei G7-Gipfel mit Trump über Ukraine-Krieg sprechen +++ alle Neuigkeiten im Liveblog",
+    "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-polen-laesst-wegen-russischer-angriffe-auf-ukraine-kampfjets-aufsteigen-faz-110683325.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-14T10:22:07.199403",
     "published_at": "2026-06-13T08:14:43Z",
     "source_type": "Newspaper / Magazine",
