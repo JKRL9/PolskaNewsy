@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-06-16T12:10:17.804803",
+    "published_at": "2026-06-15T11:59:22Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Liveblog Ukrainekrieg: Bundesregierung kritisiert russische Luftangriffe",
+    "description": "Höhlenkloster in Kiew getroffen +++ Polen lässt Kampfflugzeuge aufsteigen +++ Selenskyj will bei G7-Gipfel mit Trump über Ukrainekrieg sprechen +++ alle Neuigkeiten im Liveblog",
+    "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-bundesregierung-kritisiert-russische-luftangriffe-faz-110683325.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-16T12:10:18.822047",
+    "published_at": "2026-06-15T08:54:57Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Asian media",
+    "source_domain": "channelnewsasia.com",
+    "source": "CNA",
+    "title": "US remains world's largest arms exporter, but Iran war strains stockpiles and delays weapons deliveries",
+    "description": "For countries waiting on US military equipment, the delays are prompting a broader reassessment of how much they can rely on US weapons supplies in a crisis.",
+    "url": "https://www.channelnewsasia.com/world/united-states-weapons-exports-iran-war-depleted-stockpiles-6184101",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-16T12:10:17.804986",
+    "published_at": "2026-06-15T07:03:16Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Liveblog Ukrainekrieg: Angriffe auf Charkiw und Kiew - Brand im Höhlenkloster",
+    "description": "Massive russische Luftangriffe auf Ukraine +++ Polen lässt Kampfflugzeuge aufsteigen +++ Selenskyj will bei G7-Gipfel mit Trump über Ukrainekrieg sprechen +++ alle Neuigkeiten im Liveblog",
+    "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-angriffe-auf-charkiw-und-kiew-brand-im-hoehlenkloster-faz-110683325.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-16T06:50:30.486988",
     "published_at": "2026-06-15T02:02:00Z",
     "source_type": "Newspaper / Magazine",
