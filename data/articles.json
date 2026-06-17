@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-06-17T11:44:19.842491",
+    "published_at": "2026-06-16T11:09:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Putin-Kritiker: Festnahmen nach Schüssen auf russischen Exilkünstler",
+    "description": "Der für Spottzeichnungen von Putin und Lukaschenko bekannte Russe Semyon Skrepetsky ist in Polen auf offener Straße erschossen worden. Nun sind zwei Männer festgenommen worden.",
+    "url": "https://www.faz.net/aktuell/politik/ausland/festnahmen-nach-schuessen-auf-russischen-exilkuenstler-accg-200933933.html",
+    "keyword": "country_terms",
+    "category": "Ukraine / Russia / Belarus",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-17T11:44:19.985602",
+    "published_at": "2026-06-16T10:37:16Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Western media",
+    "source_domain": "bbc.com",
+    "source": "BBC News",
+    "title": "Russian artist and Putin critic shot dead in Poland",
+    "description": "Robert Kuzovkov, who used the pseudonym Semyon Skrepetsky, has been known for his caricatures of politicians including Vladimir Putin.",
+    "url": "https://www.bbc.com/news/articles/clyrzd5g6k2o",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-17T07:04:29.939904",
     "published_at": "2026-06-16T05:46:58Z",
     "source_type": "Newspaper / Magazine",
