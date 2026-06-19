@@ -1,5 +1,107 @@
 [
   {
+    "fetched_at": "2026-06-19T11:18:21.439970",
+    "published_at": "2026-06-18T06:41:19Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Deutschland und Polen: Wem es nützt, wenn die Atmosphäre vergiftet wird",
+    "description": "Die polnische Rechte versucht, das konstruktive Verhältnis zwischen Berlin und Warschau zu stören. Das ist im Sinne Moskaus.",
+    "url": "https://www.faz.net/aktuell/politik/ausland/polen-und-deutschland-pis-vergiftet-die-beziehungen-200939301.html",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-19T11:18:21.440178",
+    "published_at": "2026-06-17T15:52:17Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Germany won’t commit to Hormuz mission before seeing US-Iran deal",
+    "description": "Berlin and Warsaw have both said the EU's existing Aspides mandate to address threats in the Red Sea could provide a legal basis for a mission in the Persian Gulf.",
+    "url": "https://www.politico.eu/article/germany-wont-commit-hormuz-mission-without-seeing-us-iran-deal/",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-19T11:18:21.440430",
+    "published_at": "2026-06-17T14:15:15Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "An Gedenkstein: Polizei stoppt polnische Rechtsextremisten in Berlin",
+    "description": "In Berlin gehen Polizisten gegen eine Gruppe polnischer Rechtsextremisten vor. Die behaupten, sie seien gewaltsam am Gedenken für NS-Opfer gehindert worden.",
+    "url": "https://www.faz.net/aktuell/politik/inland/polizei-stoppt-polnische-rechtsextremisten-in-berlin-200938489.html",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-19T11:18:21.847449",
+    "published_at": "2026-06-17T12:55:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "У Польщі назвали дві причини, чому затримується передача Україні МіГів",
+    "description": "Польща чекає на домовленості щодо співпраці з Україною та модернізації МіГ-29.",
+    "url": "https://www.pravda.com.ua/news/2026/06/17/8039791/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-19T11:18:21.847600",
+    "published_at": "2026-06-17T12:55:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "В Польше назвали две причины, по которым задерживается передача Украине МиГов",
+    "description": "Польша ожидает достижения договоренностей о сотрудничестве с Украиной и модернизации МиГ-29.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/06/17/8039791/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-19T11:18:22.028569",
+    "published_at": "2026-06-17T12:07:48Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Asian media",
+    "source_domain": "channelnewsasia.com",
+    "source": "CNA",
+    "title": "Shooting of Russian artist known for Putin caricatures likely 'political murder', says Poland's PM",
+    "description": "WARSAW: The fatal shooting in eastern Poland of a Russian artist known for his caricatures of Russian President Vladimir Putin was likely politically motivated, Polish Prime Minister Donald Tusk said on Wedn",
+    "url": "https://www.channelnewsasia.com/world/poland-russian-artist-shooting-putin-critic-political-murder-6190306",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": [
+      "Donald Tusk"
+    ]
+  },
+  {
+    "fetched_at": "2026-06-19T11:18:21.440594",
+    "published_at": "2026-06-17T11:42:29Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Getöteter Künstler: Tusk: Alle Hinweise deuten auf „politischen Mord“",
+    "description": "Nachdem ein russischer Künstler in Polen erschossen wurde, spricht Polens Ministerpräsident von einem politisch motivierten Verbrechen. Steckt Russland dahinter?",
+    "url": "https://www.faz.net/aktuell/politik/ausland/tusk-alle-hinweise-deuten-auf-politischen-mord-in-polen-accg-200939531.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": [
+      "Donald Tusk"
+    ]
+  },
+  {
     "fetched_at": "2026-06-18T11:07:07.914624",
     "published_at": "2026-06-17T09:07:23Z",
     "source_type": "Newspaper / Magazine",
