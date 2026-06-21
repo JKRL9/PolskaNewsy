@@ -1,5 +1,107 @@
 [
   {
+    "fetched_at": "2026-06-21T10:27:33.840922",
+    "published_at": "2026-06-20T10:05:38Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Western media",
+    "source_domain": "bbc.com",
+    "source": "BBC News",
+    "title": "Возвращение Белого Орла. Пять последствий отзыва президентом Польши награды у президента Украины",
+    "description": "Решение Кароля Навроцкого лишить Владимира Зеленского польского ордена выходит за пределы чисто символического жеста и способно оказать огромное влияние на внутреннюю политику Польши и Украины, а также на межгосударственные отношения в Европе.",
+    "url": "https://www.bbc.com/russian/articles/c78ynex6zppo",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-21T10:27:33.645282",
+    "published_at": "2026-06-20T06:33:56Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Polish president strips Zelenskyy of top honor in dispute over World War II unit",
+    "description": "Karol Nawrocki's move puts an intense strain on one of the most important European alliances in the war against Russia.",
+    "url": "https://www.politico.eu/article/volodymyr-zelenskyy-poland-world-war-ii-ukrainian-military-unit-polish-politics/",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": [
+      "Karol Nawrocki"
+    ]
+  },
+  {
+    "fetched_at": "2026-06-21T10:27:33.645432",
+    "published_at": "2026-06-20T05:49:41Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Polens Außenminister: „Wir fordern einen Platz am Verhandlungstisch“",
+    "description": "Polens Außenminister Sikorski: Polen muss bei Ukraine-Verhandlungen beteiligt werden",
+    "url": "https://www.faz.net/aktuell/politik/ukraine/polens-aussenminister-polen-bei-ukraine-verhandlungen-beteiligen-accg-200931879.html",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-21T10:27:34.035933",
+    "published_at": "2026-06-20T05:36:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Буданов отказался от польского ордена",
+    "description": "Глава ОП Кирилл Буданов вернул польский орден после того, как Польша лишила Зеленского этой награды.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/06/20/8040264/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-21T10:27:33.841149",
+    "published_at": "2026-06-20T04:27:06Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Western media",
+    "source_domain": "bbc.com",
+    "source": "BBC News",
+    "title": "Tổng thống Ba Lan tước huân chương Đại bàng Trắng của ông Zelensky",
+    "description": "Ukraine đã lên án động thái này, gọi đó là \"sai lầm chiến lược\" và \"thiếu tôn trọng\".",
+    "url": "https://www.bbc.com/vietnamese/articles/cp8rm1dy18no",
+    "keyword": "country_terms",
+    "category": "Ukraine / Russia / Belarus",
+    "people": [
+      "Andrzej Duda"
+    ]
+  },
+  {
+    "fetched_at": "2026-06-21T10:27:34.266791",
+    "published_at": "2026-06-19T23:31:29Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Asian media",
+    "source_domain": "asahi.com",
+    "source": "Asahi.com",
+    "title": "ポーランド大統領、ゼレンスキー氏の勲章を剝奪　歴史認識で対立",
+    "description": "ポーランドのナブロツキ大統領は19日夜、隣国ウクライナのゼレンスキー大統領に授与していた最高位の「白鷲（はくちょう）勲章」を剝奪（はくだつ）すると発表した。両国の関係が悪化することになれば、欧州の安…",
+    "url": "https://www.asahi.com/articles/ASV6M7RT3V6MBQBQ00TM.html",
+    "keyword": "country_terms",
+    "category": "Ukraine / Russia / Belarus",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-21T10:27:33.841250",
+    "published_at": "2026-06-19T21:18:47Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Western media",
+    "source_domain": "bbc.com",
+    "source": "BBC News",
+    "title": "Zelensky stripped of highest Polish honour over WW2 name of army unit",
+    "description": "Ukraine has denounced the move, calling it a \"strategic mistake\" and \"disrespectful\".",
+    "url": "https://www.bbc.com/news/articles/cr7xzg3dmj8o",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-20T18:27:28.245209",
     "published_at": "2026-06-19T16:07:35Z",
     "source_type": "Newspaper / Magazine",
