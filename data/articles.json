@@ -1,5 +1,51 @@
 [
   {
+    "fetched_at": "2026-06-24T10:19:49.122558",
+    "published_at": "2026-06-23T10:12:22Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "\"Wiedzieliśmy od samego początku\". Donald Tusk o sporze Polski i Ukrainy",
+    "description": "— Relacje polsko-ukraińskie to sprawa, nad którą pracujemy, aby minimalizować straty. Chcę powiedzieć, że zdaję sobie sprawę, jaki jest nastrój społeczny. Wiedzieliśmy od samego początku, że fakt przyjęcia dużo ponad 1 mln uchodźców z Ukrainy będzie budził ko…",
+    "url": "https://wiadomosci.onet.pl/kraj/wiedzielismy-od-samego-poczatku-donald-tusk-o-sporze-polski-i-ukrainy/sxpt6dg",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": [
+      "Donald Tusk"
+    ]
+  },
+  {
+    "fetched_at": "2026-06-24T10:19:49.397223",
+    "published_at": "2026-06-23T04:05:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "The Visegrád Four is back from the dead",
+    "description": "Presented by Team Poland.",
+    "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-visegrad-four-is-back-from-the-dead/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-24T10:19:49.397584",
+    "published_at": "2026-06-22T17:08:45Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Tusk accuses president of medal blunder as Poland seeks to keep influence in Ukraine war",
+    "description": "\"A mistake is worse than a crime,\" said Tusk of President Karol Nawrocki's move to strip Zelenskyy of the country's top honor.",
+    "url": "https://www.politico.eu/article/donald-tusk-accuses-president-of-medal-blunder-poland-ukraine-war/",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": [
+      "Karol Nawrocki"
+    ]
+  },
+  {
     "fetched_at": "2026-06-23T10:34:20.305234",
     "published_at": "2026-06-22T06:50:17Z",
     "source_type": "Newspaper / Magazine",
