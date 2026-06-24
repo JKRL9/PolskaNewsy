@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-06-24T17:57:20.038664",
+    "published_at": "2026-06-23T13:28:23Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Zelenskyy to skip Ukraine recovery conference amid spat with Poland",
+    "description": "Prime Minister Yulia Svyrydenko will lead Kyiv’s delegation to the Gdańsk summit instead.",
+    "url": "https://www.politico.eu/article/yulia-zelenskyy-skip-ukraine-conference-poland-amid-spat/",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-24T17:57:20.038841",
+    "published_at": "2026-06-23T12:15:37Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Streit zwischen Verbündeten - Selenskyj sagt wichtige Konferenz in Polen ab",
+    "description": "Sie sind Freunde und enge Verbündete, doch der Streit zwischen Polen und der Ukraine um die Aufarbeitung des Zweiten Weltkriegs spitzt sich weiter zu.",
+    "url": "https://www.bild.de/politik/ausland-und-internationales/streit-um-orden-selenskyj-sagt-wichtige-konferenz-in-polen-ab-6a3a6b76bee7c015a23d83ec",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-24T10:19:49.122558",
     "published_at": "2026-06-23T10:12:22Z",
     "source_type": "Newspaper / Magazine",
