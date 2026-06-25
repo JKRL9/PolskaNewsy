@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-06-25T20:58:07.553145",
+    "published_at": "2026-06-24T18:05:48Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "E5-Gipfel im Kanzleramt: Eine Botschaft an Trump",
+    "description": "Bei einem Treffen in Berlin sagen Deutschland, Frankreich, Großbritannien, Polen und Italien eine rasche Stärkung des europäischen NATO-Pfeilers zu. In einer Frage gibt es aber weiter Dissens.",
+    "url": "https://www.faz.net/aktuell/politik/ukraine/e-5-gipfel-im-kanzleramt-eine-botschaft-an-trump-200964419.html",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-25T20:58:07.553254",
+    "published_at": "2026-06-24T18:05:48Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "E5-Gipfel im Kanzleramt: Eine Botschaft an Trump",
+    "description": "Bei einem Treffen in Berlin sagen Deutschland, Frankreich, Großbritannien, Polen und Italien eine rasche Stärkung des europäischen NATO-Pfeilers zu. In einer Frage gibt es aber weiter Dissens.",
+    "url": "https://www.faz.net/aktuell/politik/ukraine/e-5-treffen-im-kanzleramt-europas-antwort-auf-trump-200964419.html",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-25T20:58:07.894194",
+    "published_at": "2026-06-24T12:02:49Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "kommersant.ru",
+    "source": "Kommersant.ru",
+    "title": "Вашингтон пишем, Анкара в уме // Перед саммитом НАТО генсек альянса Марк Рютте прибывает с визитом в США",
+    "description": "Генсек НАТО Марк Рютте 24 июня начинает визит в Вашингтон, в ходе которого проведет встречу с президентом Дональдом Трампом и примет дистанционное участие в саммите стран группы E5 (Польша, Германия, Франция, Италия и Великобритания). Главная цель визита — сг…",
+    "url": "https://www.kommersant.ru/doc/8763863",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-25T10:13:23.527088",
     "published_at": "2026-06-24T09:37:33Z",
     "source_type": "Newspaper / Magazine",
