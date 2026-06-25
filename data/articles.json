@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-06-25T10:13:23.527088",
+    "published_at": "2026-06-24T09:37:33Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "BILD an der Nato-Grenze zu Russland - Polen rüstet sich: „Operation Ostschild“ gegen Putin",
+    "description": "Polen sichert die Außengrenzen der Nato: Besuch an der polnischen Grenze zu Kaliningrad, an der sich kilometerweit Panzersperren aneinanderreihen.",
+    "url": "https://www.bild.de/politik/ausland-und-internationales/polen-ruestet-sich-mit-operation-ostschild-gegen-putin-hier-grenzt-die-nato-an-russland-6a0d9644f0f7eb608db78035",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-25T10:13:23.527709",
+    "published_at": "2026-06-24T04:05:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Can Europe’s big five get their act together in Berlin?",
+    "description": "Presented by Team Poland.",
+    "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/can-europes-big-five-get-their-act-together-in-berlin/",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-25T10:13:23.314738",
+    "published_at": "2026-06-23T18:07:39Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "\"Onet Rano.\" | 24.06",
+    "description": "#płatnawspółpraca | Zapraszamy na środowe \"Onet Rano.\", w którym gośćmi Marcina Zawady będą: dr hab. Jacek Siewiera - były szef Biura Bezpieczeństwa Narodowego, Jacek Gądek - Newsweek Polska, Karolina Ludwikowska - pisarka, Robert Szulc - podróżnik. W części …",
+    "url": "https://wiadomosci.onet.pl/kraj/onet-rano-or-2406/t20vbdn",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-24T17:57:20.038664",
     "published_at": "2026-06-23T13:28:23Z",
     "source_type": "Newspaper / Magazine",
