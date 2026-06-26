@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-06-26T10:20:53.647814",
+    "published_at": "2026-06-25T04:05:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Rebuilding Ukraine under the shadow of a presidential row",
+    "description": "Presented by Team Poland.",
+    "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/rebuilding-ukraine-under-the-shadow-of-a-presidential-row/",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-26T10:20:53.452609",
+    "published_at": "2026-06-25T03:25:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Rusza konferencja na rzecz odbudowy Ukrainy. \"Dopiero wtedy polskie firmy będą decydować się na inwestycje\"",
+    "description": "Konferencja w Gdańsku, na którą nie przyjedzie prezydent Zełenski, upłynie w cieniu napięć polsko-ukraińskich. — To, czy firmy polskie zostaną pominięte przy odbudowie Ukrainy, nie zależy od doraźnej koniunktury politycznej — mówią Onetowi eksperci. Ich zdani…",
+    "url": "https://wiadomosci.onet.pl/kraj/polskie-firmy-straca-na-konflikcie-nawrocki-zelenski/6gsp6g6",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-25T20:58:07.553145",
     "published_at": "2026-06-24T18:05:48Z",
     "source_type": "Newspaper / Magazine",
