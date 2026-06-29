@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-06-29T11:56:13.375818",
+    "published_at": "2026-06-27T13:00:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Польша о войне: Инициатива больше не принадлежит РФ",
+    "description": "Глава МИД Польши заявил, что Украина лишила Россию преимущества в войне; ход событий меняется в пользу Киева.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/06/27/8041381/",
+    "keyword": "country_terms",
+    "category": "Ukraine / Russia / Belarus",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-29T11:56:13.674013",
+    "published_at": "2026-06-27T10:00:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Asian media",
+    "source_domain": "asahi.com",
+    "source": "Asahi.com",
+    "title": "ウクライナ、遠い「復興」　国際会議で見えた課題と日本への期待",
+    "description": "ポーランド北部グダニスクで25、26日、「ウクライナ復興会議」が開かれ、ロシアによる侵攻を受ける国や国民をいかに強靱（きょうじん）にするかが話し合われた。「復興」は遠く、官民が協力して支え続ける必要…",
+    "url": "https://www.asahi.com/articles/ASV6W2VLXV6WUHBI001M.html",
+    "keyword": "country_terms",
+    "category": "Ukraine / Russia / Belarus",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-28T09:55:17.199430",
     "published_at": "2026-06-27T03:12:40Z",
     "source_type": "Newspaper / Magazine",
