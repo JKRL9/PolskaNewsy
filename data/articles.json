@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-06-30T10:29:50.146620",
+    "published_at": "2026-06-29T03:00:22Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "kommersant.ru",
+    "source": "Kommersant.ru",
+    "title": "Польша предложила Германии новый способ компенсировать преступления нацизма",
+    "description": "Правительство Польши предложило Берлину новый формат компенсаций для жертв нацизма, которые сейчас находятся в живых, сообщает Suddeutsche Zeitung (SZ). Предложение заключается в том, чтобы Германия начала выплачивать каждому пострадавшему по 10 тыс. злотых (…",
+    "url": "https://www.kommersant.ru/doc/8779045",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-06-30T10:29:50.146751",
+    "published_at": "2026-06-29T02:23:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Польша требует от Германии выплачивать жертвам нацизма по 10 тысяч злотых ежегодно",
+    "description": "Польское правительство требует от Германии ежегодных компенсационных выплат в размере 10 тысяч злотых (около 2333 евро) для граждан Польши, ставших жертвами нацистского режима.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/06/29/8041523/",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
     "fetched_at": "2026-06-29T11:56:13.375818",
     "published_at": "2026-06-27T13:00:00Z",
     "source_type": "Newspaper / Magazine",
