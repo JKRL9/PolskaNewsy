@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-07-02T09:58:48.616111",
+    "published_at": "2026-07-01T05:38:27Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Panne bei Linienflug: Israel lässt Kampfflugzeuge nach versehentlich abgesetztem Entführungscode starten",
+    "description": "Ein Airbus auf dem Weg nach Tel Aviv meldet einen Notfall. Das israelische Militär reagiert sofort – kurz darauf stellt sich das Ganze als Fehlalarm heraus.",
+    "url": "https://www.faz.net/aktuell/politik/ausland/israel-laesst-kampfflugzeuge-nach-versehentlich-abgesetztem-entfuehrungscode-starten-accg-200986020.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-02T09:58:48.616416",
+    "published_at": "2026-06-30T19:18:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Nationale Heldenstätte: In Polen wächst der Widerstand gegen einen EU-Beitritt Kiews",
+    "description": "Wolodymyr Selenskyj kündigt eine nationale Heldenstätte an. Polen versteht das als Provokation. Der Geschichtsstreit beider Länder geht in eine neue Runde.",
+    "url": "https://www.faz.net/aktuell/politik/ausland/polen-und-ukraine-eskalieren-im-streit-um-vergangenheit-200982659.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-02T09:58:48.907228",
+    "published_at": "2026-06-30T12:51:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "СМИ: Польша удовлетворена новыми ограничениями ЕС на импорт украинской стали",
+    "description": "В польском правительстве заявили, что Европейская комиссия учла большинство требований Варшавы при введении новых ограничений на импорт стали, в частности из Украины.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/06/30/8041776/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-07-01T10:39:16.424422",
     "published_at": "2026-06-30T09:33:05Z",
     "source_type": "Newspaper / Magazine",
