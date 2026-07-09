@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-07-09T10:20:58.416951",
+    "published_at": "2026-07-08T04:22:36Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Western media",
+    "source_domain": "bbc.com",
+    "source": "BBC News",
+    "title": "Польша рассекретила данные о военной помощи Украине с 2022 года — в ответ на критику о поставках Киеву ракет для систем Patriot",
+    "description": "Польская правая оппозиция заявляет, что Варшава якобы тайно передала Киеву ракеты для систем ПВО Patriot. Оппозиция обвинила правительство в подрыве обороноспособности своей страны. В ответ на эти обвинения министр обороны Польши Владислав Косиняк-Камыш пообе…",
+    "url": "https://www.bbc.com/russian/articles/c05yqle1m1go",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-09T10:20:59.052777",
+    "published_at": "2026-07-08T00:00:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Asian media",
+    "source_domain": "asahi.com",
+    "source": "Asahi.com",
+    "title": "NATO加盟の道筋見えず　ウクライナが見いだす「勝利」と「復興」",
+    "description": "《ドローンを殺せ。それがあなたを殺す前に》　6月25、26日にポーランド北部グダニスクで開かれた「ウクライナ復興会議」。ある出展ブースには迎撃ドローンの模型とともに、そんなパンフレットが置かれていた…",
+    "url": "https://www.asahi.com/articles/ASV734195V73UHBI003M.html",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-09T10:20:58.728807",
+    "published_at": "2026-07-07T11:05:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "В Европе при участии США создадут центр технического обслуживания ракет для \"Пэтриотов\"",
+    "description": "США, Германия, Польша и их партнеры откроют в Европе совместный центр для ракет PAC-3.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/07/07/8042813/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-07-08T09:23:12.860565",
     "published_at": "2026-07-07T00:00:00Z",
     "source_type": "Newspaper / Magazine",
