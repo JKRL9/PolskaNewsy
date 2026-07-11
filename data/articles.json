@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-07-11T08:43:40.393640",
+    "published_at": "2026-07-09T12:23:12Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "kommersant.ru",
+    "source": "Kommersant.ru",
+    "title": "Активиста Игоря Рогова и его жену Ирину осудили в Польше по делу о шпионаже",
+    "description": "Суд города Сосновца на юге Польши признал супругов Игоря и Ирину Роговых виновными в сотрудничестве с российской разведкой. Их приговорили к семи и трем годам лишения свободы соответственно, передает ТАСС.",
+    "url": "https://www.kommersant.ru/doc/8799770#article-text-8799770",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-11T08:43:40.393837",
+    "published_at": "2026-07-09T12:18:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Понад 40% поляків вважають надану військову допомогу Україні надмірною – опитування",
+    "description": "Майже половина поляків вважає, що Польща надмірно допомагає Україні у війні проти Росії.",
+    "url": "https://www.pravda.com.ua/news/2026/07/09/8043241/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-07-10T10:20:14.931313",
     "published_at": "2026-07-09T08:25:07Z",
     "source_type": "Newspaper / Magazine",
@@ -37,6 +65,20 @@
     "title": "Ukraine und Polen: Gescheiterter Waffentausch",
     "description": "Polen will im Tausch gegen Drohnen MiG-Kampfflugzeuge an die Ukraine abgeben. Doch Kiew lehnt ab. Beide Partner distanzieren sich weiter voneinander.",
     "url": "https://www.faz.net/aktuell/politik/ukraine/polnisch-ukrainischer-streit-migs-gegen-drohnen-accg-201004965.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-11T08:43:40.135035",
+    "published_at": "2026-07-09T05:42:47Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Ukraine und Polen: Gescheiterter Waffentausch",
+    "description": "Polen will im Tausch gegen Drohnen MiG-Kampfflugzeuge an die Ukraine abgeben. Doch Kiew lehnt ab. Beide Partner distanzieren sich weiter voneinander.",
+    "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-und-polen-distanzieren-sich-voneinander-nach-gescheitertetem-waffentausch-accg-201004965.html",
     "keyword": "country_terms",
     "category": "Europe / EU",
     "people": []
