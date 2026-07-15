@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-07-15T09:07:01.896567",
+    "published_at": "2026-07-14T08:26:07Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "vedomosti.ru",
+    "source": "Vedomosti.ru",
+    "title": "Польша намерена поставлять Латвии и Эстонии крылатые ракеты Barracuda-500",
+    "description": "Польша будет поставлять ракеты Barracuda-500 Эстонии и Латвии. Новости Ведомости, 14 июля 2026.",
+    "url": "https://www.vedomosti.ru/politics/news/2026/07/14/1213474-polsha-namerena-postavlyat",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-15T09:07:01.636440",
+    "published_at": "2026-07-13T11:58:51Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Western media",
+    "source_domain": "bbc.com",
+    "source": "BBC News",
+    "title": "У Польщі чоловік ображав українських дітей в автобусі. Втрутилися міністри обох країн",
+    "description": "Чоловік кричав дітям, аби вони поверталися до України. Коли інша дівчинка заступилася за подругу, до якої він звертався, чоловік почав ображати і її.",
+    "url": "https://www.bbc.com/ukrainian/articles/c14y325nlpro",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-15T09:07:01.400173",
+    "published_at": "2026-07-13T10:17:29Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Roman „Wenn alles brennt“: Der Sommer der zappelnden Zungen",
+    "description": "Am mythenumwobenen und zugleich übel beleumundeten Strand von Ostia: In ihrem Roman „Wenn alles brennt“ schildert Paulina Spiechowicz das Schicksal von jungen Polen in Italien.",
+    "url": "https://www.faz.net/aktuell/feuilleton/buecher/der-roman-wenn-alles-brennt-von-paulina-spiechowicz-accg-200842205.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
     "fetched_at": "2026-07-13T10:20:50.427625",
     "published_at": "2026-07-12T08:21:00Z",
     "source_type": "Newspaper / Magazine",
