@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-07-22T09:23:47.355187",
+    "published_at": "2026-07-20T20:29:21Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Sprit-Wut bei Deutschlands Autofahrern - Warum ist der Liter hinter der Grenze 63 Cent billiger?",
+    "description": "Spritpreise in Europa im Vergleich: Warum Benzin und Diesel in Deutschland so teuer sind und Autofahrer im Ausland bis zu 63 Cent je Liter sparen.",
+    "url": "https://www.bild.de/politik/inland/spritpreise-in-deutschland-warum-tanken-im-ausland-bis-zu-63-cent-billiger-ist-6a5ddd9dc72232627649dd99",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-22T09:23:47.800551",
+    "published_at": "2026-07-20T11:58:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Польша обсудит угрозу провокации со стороны РФ с использованием перехваченных у Украины дронов",
+    "description": "Комитет по безопасности правительства Польши проведёт обсуждение угрозы российской провокации с использованием украинских ударных беспилотников, которые попали в руки противника практически в целости и сохранности.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/07/20/8044955/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-22T09:23:47.800722",
+    "published_at": "2026-07-20T11:58:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Польща обговорить загрозу провокації РФ з використанням перехоплених в України дронів",
+    "description": "Безпековий комітет уряду Польщі проведе обговорення щодо загрози російської провокації з використанням українських ударних безпілотників, які потрапили у руки противника відносно цілими.",
+    "url": "https://www.pravda.com.ua/news/2026/07/20/8044955/",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
     "fetched_at": "2026-07-21T09:24:24.934544",
     "published_at": "2026-07-19T14:06:00Z",
     "source_type": "Newspaper / Magazine",
