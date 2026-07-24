@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-07-24T09:17:45.565984",
+    "published_at": "2026-07-23T04:50:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Globales Preisranking: Das sind die teuersten Städte der Welt",
+    "description": "Wo auf der Welt lebt es sich noch günstig, wo ist es teuer? Fragen, die auch für das Entsenden von Mitarbeitern wachsende Bedeutung haben. Analysten haben ausgewertet, in welchen Metropolen man besonders viel für Miete und Lebenshaltung ausgeben muss.",
+    "url": "https://www.faz.net/premium/weltwirtschaft/weltwissen/teuerste-staedte-der-welt-deutsche-bank-bericht-2025-accg-201047965.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-24T09:17:45.911289",
+    "published_at": "2026-07-22T18:51:45Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "vedomosti.ru",
+    "source": "Vedomosti.ru",
+    "title": "Польша получила запрос НАТО на истребители МиГ-29 для Украины",
+    "description": "Польша получила обращение от одной из стран НАТО по вопросу истребителей МиГ-29, которые ранее планировалось передать Украине. Новости Ведомости, 22 июля 2026.",
+    "url": "https://www.vedomosti.ru/politics/news/2026/07/22/1215788-polsha-poluchila-zapros",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-24T09:17:45.566455",
+    "published_at": "2026-07-22T09:43:01Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "In Polen - Polizei fasst 2 Männer der Vergewaltigungsakademie",
+    "description": "Es erinnert an den Missbrauchsfall Pelicot, hat jedoch offenbar noch deutlich gewaltigere Ausmaße. In Polen konnten zwei Verdächtige verhaftet werden.",
+    "url": "https://www.bild.de/news/ausland/polizei-fasst-zwei-maenner-der-vergewaltigungsakademie-in-polen-6a607c21bac55da1c3fd12c0",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
     "fetched_at": "2026-07-23T09:22:12.830718",
     "published_at": "2026-07-22T03:00:00Z",
     "source_type": "Newspaper / Magazine",
