@@ -1,5 +1,109 @@
 [
   {
+    "fetched_at": "2026-07-29T09:34:29.568814",
+    "published_at": "2026-07-27T18:55:18Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "aus den USA: Polen beantragt Auslieferung von ehemaligen Minister",
+    "description": "Die USA sind nicht das erste Exil des ehemaligen polnischen Justizministers Zbigniew Ziobro. Ein US-Bundesgericht prüft nun den Antrag.",
+    "url": "https://www.faz.net/aktuell/politik/ausland/polen-beantragt-auslieferung-von-ehemaligen-minister-aus-den-usa-201070506.html",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": [
+      "Zbigniew Ziobro"
+    ]
+  },
+  {
+    "fetched_at": "2026-07-29T09:34:29.568963",
+    "published_at": "2026-07-27T18:55:18Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "aus den USA: Polen beantragt Auslieferung des früheren Justizministers",
+    "description": "Die USA sind nicht das erste Exil des ehemaligen polnischen Justizministers Zbigniew Ziobro. Ein US-Bundesgericht prüft nun den Antrag.",
+    "url": "https://www.faz.net/aktuell/politik/ausland/polen-beantragt-von-washington-auslaieferng-des-ehemaligen-justizministers-ziobro-201070506.html",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": [
+      "Zbigniew Ziobro"
+    ]
+  },
+  {
+    "fetched_at": "2026-07-29T09:34:29.569065",
+    "published_at": "2026-07-27T18:55:18Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "aus den USA: Polen beantragt Auslieferung des früheren Justizministers",
+    "description": "Die USA sind nicht das erste Exil des ehemaligen polnischen Justizministers Zbigniew Ziobro. Ein US-Bundesgericht prüft nun den Antrag.",
+    "url": "https://www.faz.net/aktuell/politik/ausland/polen-beantragt-von-washington-auslieferung-des-ehemaligen-justizministers-ziobro-201070506.html",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": [
+      "Zbigniew Ziobro"
+    ]
+  },
+  {
+    "fetched_at": "2026-07-29T09:34:29.569475",
+    "published_at": "2026-07-27T10:33:56Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Jetzt kommt die Blitz-Hitze - Von 20 auf fast 40 Grad in wenigen Tagen",
+    "description": "Die nächste Hitzewelle rollt auf Deutschland zu, mit Temperaturen weit über 30 Grad. Sogar der Juni-Hitzerekord könnte in den nächsten Tagen geknackt wer...",
+    "url": "https://www.bild.de/news/jetzt-kommt-die-blitz-hitze-von-20-auf-fast-40-grad-in-wenigen-tagen-6a67229d36ccf40cc9c510f9",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-29T09:34:29.569625",
+    "published_at": "2026-07-27T10:20:28Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Sie feierte mit ihrer Tochter in Berlin - Terror-Opfer vom CSD ist eine Mutter aus Polen",
+    "description": "Beim Anschlag auf den CSD starb eine Mutter aus Polen, ihre Tochter wurde verletzt.",
+    "url": "https://www.bild.de/regional/berlin/terror-opfer-vom-csd-in-berlin-ist-eine-mutter-aus-polen-6a671c9adc2b0bab191a7ce7",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-29T09:34:29.569893",
+    "published_at": "2026-07-27T10:17:38Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Terror-Experte Peter Neumann - „Es gibt Anzeichen für eine Parallelwelt in Deutschland“",
+    "description": "Thomas Kausch im Gespräch mit Terrorismusexperte Peter Neumann über die Radikalisierung des CSD-Attentäters",
+    "url": "https://www.bild.de/news/terror-experte-peter-neumann-es-gibt-anzeichen-fuer-eine-parallelwelt-in-deutschland-6a671961cbfb33efe26fa78c",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-29T09:34:29.570031",
+    "published_at": "2026-07-27T10:17:38Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Medizin-Sensation aus Italien - Neuartige Augen-OP lässt blinde Frau wieder sehen",
+    "description": "Mehr als fünf Jahre lang lebte Elena in völliger Dunkelheit. Dann wagten Ärzte in Italien eine Operation, die es in dieser Form wohl noch nie gab.",
+    "url": "https://www.bild.de/leben-wissen/medizin/weltweit-einzigartige-augen-op-blinde-frau-kann-nach-fuenf-jahren-wieder-sehen-6a6605a9e4e0a5362b8fc4a5",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
     "fetched_at": "2026-07-26T09:09:10.853216",
     "published_at": "2026-07-25T06:26:30Z",
     "source_type": "Newspaper / Magazine",
