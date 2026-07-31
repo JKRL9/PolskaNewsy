@@ -1,5 +1,93 @@
 [
   {
+    "fetched_at": "2026-07-31T09:39:49.550976",
+    "published_at": "2026-07-30T09:10:31Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Asian media",
+    "source_domain": "asahi.com",
+    "source": "Asahi.com",
+    "title": "ウクライナに攻撃、6、11、17歳も犠牲に　ポーランド領空も侵犯",
+    "description": "ロシア軍は29日夜から30日朝にかけて、ミサイルやドローン（無人機）を使ってウクライナ各地を攻撃した。ウクライナのゼレンスキー大統領はSNSで、迎撃ミサイル不足が深刻化していると指摘。「ウクライナ単…",
+    "url": "https://www.asahi.com/articles/ASV7Z2R1PV7ZSFVU119M.html",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-31T09:39:48.720309",
+    "published_at": "2026-07-30T09:05:51Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Liveblog Ukrainekrieg: Russische Rakete schlägt in Polen ein",
+    "description": "Tusk: „ernster Vorfall“ +++ Polnische F-16-Jagdflugzeuge aufgestiegen +++ Acht Tote durch russische Angriffe in der Ukraine +++ alle Neuigkeiten im Liveblog",
+    "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-offenbar-russische-rakete-in-polen-eingeschlagen-faz-110683325.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-31T09:39:48.720433",
+    "published_at": "2026-07-30T08:10:15Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Unidentified object crashes in Poland as Russia strikes Ukraine",
+    "description": "Authorities have not yet determined whether the object was a drone or missile, or established its origin.",
+    "url": "https://www.politico.eu/article/unidentified-object-crashes-poland-russia-strikes-ukraine/",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": [
+      "Donald Tusk"
+    ]
+  },
+  {
+    "fetched_at": "2026-07-31T09:39:49.244108",
+    "published_at": "2026-07-30T05:56:14Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "vedomosti.ru",
+    "source": "Vedomosti.ru",
+    "title": "Польша подняла истребители якобы на фоне активности РФ на Украине",
+    "description": "Польша подняла в небо истребители после того, как появилась информация о якобы активности России на территории Украины, сообщило в соцсети X оперативное командование армии страны. Новости Ведомости, 30 июля 2026.",
+    "url": "https://www.vedomosti.ru/politics/news/2026/07/30/1217555-polsha-podnyala-istrebiteli",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-31T09:39:49.244281",
+    "published_at": "2026-07-29T14:56:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "В Польше в поезде двое мужчин оскорбляли украинца, агрессоров выгнали из поезда и оштрафовали",
+    "description": "В поезде недалеко от Варшавы двое мужчин приставали к украинцу, но после вмешательства кондуктора и других пассажиров агрессоров выгнали из вагона, а позже полиция выписала им штраф.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/07/29/8046423/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-07-31T09:39:48.720812",
+    "published_at": "2026-07-29T12:00:04Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Spaltung der PiS in Polen: Jetzt hat Morawiecki genug",
+    "description": "Der einstige Regierungschef Mateusz Morawiecki will sich von seiner alten Partei nicht aufhalten lassen. Gegen ein Manöver des PiS-Vorstandes gründet er eine neue Fraktion im polnischen Parlament.",
+    "url": "https://www.faz.net/aktuell/politik/ausland/spaltung-der-pis-in-polen-morawiecki-gruendet-eigene-fraktion-201075805.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": [
+      "Mateusz Morawiecki"
+    ]
+  },
+  {
     "fetched_at": "2026-07-30T09:27:12.690418",
     "published_at": "2026-07-29T08:38:02Z",
     "source_type": "Newspaper / Magazine",
