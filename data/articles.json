@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-08-02T09:06:16.696711",
+    "published_at": "2026-07-31T13:51:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Польша вызвала посла РФ из-за инцидента с российской ракетой",
+    "description": "Министерство иностранных дел Польши вызвало посла России в связи с падением российской ракеты на территории Люблинского воеводства 30 июля.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/07/31/8046720/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-02T09:06:16.696843",
+    "published_at": "2026-07-31T13:50:16Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "kommersant.ru",
+    "source": "Kommersant.ru",
+    "title": "Польша вызвала посла России после падения ракеты под Люблином",
+    "description": "МИД Польши вызвал российского посла после падения ракеты на юго-востоке страны, написал польский премьер-министр Дональд Туск в соцсети X. Накануне премьер предположил, что воздушное пространство могла нарушить российская ракета X-101. При этом он уточнил, чт…",
+    "url": "https://www.kommersant.ru/doc/8860090#article-text-8860090",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-02T09:06:16.696942",
+    "published_at": "2026-07-31T09:11:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "life.pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Джессі Айзенберґ приїхав до України в межах гуманітарного проєкту для дітей",
+    "description": "",
+    "url": "https://life.pravda.com.ua/culture/dzhessi-ayzenberg-prijihav-do-ukrajini-v-mezhah-gumanitarnogo-proyektu-dlya-ditey-316601/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-08-01T09:01:56.731121",
     "published_at": "2026-07-31T05:02:00Z",
     "source_type": "Newspaper / Magazine",
