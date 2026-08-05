@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-08-05T09:33:28.316277",
+    "published_at": "2026-08-03T16:28:57Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Poland appeals €1.3B Pfizer vaccine ruling",
+    "description": "Warsaw says the end of the pandemic and Russia's invasion of Ukraine upended the deal.",
+    "url": "https://www.politico.eu/article/poland-appeal-pfizer-vaccine-ruling/",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-05T09:33:28.788976",
+    "published_at": "2026-08-03T14:34:57Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "kommersant.ru",
+    "source": "Kommersant.ru",
+    "title": "Польша заявила о перехвате российского самолета над Балтикой",
+    "description": "Пару польских истребителей поднимали для перехвата российского разведывательного самолета Ил-20 в небе над Балтийским морем 3 августа, заявил министр обороны страны Владислав Косиняк-Камыш в соцсети Х. Российский самолет был перехвачен в 60 км к северо-западу…",
+    "url": "https://www.kommersant.ru/doc/8861681#article-text-8861681",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-08-03T10:38:09.667700",
     "published_at": "2026-08-02T10:00:43Z",
     "source_type": "Newspaper / Magazine",
