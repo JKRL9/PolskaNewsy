@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-08-08T07:44:31.604916",
+    "published_at": "2026-08-06T08:55:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Посол Украины: Польша готовит 50-й пакет военной помощи Украине",
+    "description": "Варшава готовит 50-й пакет военной помощи для Украины, заявил Василий Боднар. Поставка техники продолжается.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/08/06/8047528/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-08T07:44:31.337308",
+    "published_at": "2026-08-06T08:14:34Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Hitze-Liveblog: 261 Menschen sind in diesem Jahr in deutschen Gewässern ertrunken",
+    "description": "9600 Hitzetote in Deutschland in heißer Juniwoche +++ 40,8 Grad Celsius: Temperaturrekord in Österreich +++ Hitze-Warnstufe für Warschau +++ alle Entwicklungen im Liveblog",
+    "url": "https://www.faz.net/aktuell/gesellschaft/menschen/liveticker-zur-hitzewelle-261-menschen-sind-2026-in-deutschen-badegewaessern-ertrunken-faz-200949959.html",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
     "fetched_at": "2026-08-07T08:09:58.331951",
     "published_at": "2026-08-05T18:17:17Z",
     "source_type": "Newspaper / Magazine",
