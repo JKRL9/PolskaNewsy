@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-08-09T07:50:20.171414",
+    "published_at": "2026-08-08T03:00:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Pekin pokazuje siłę. Ekspertka: Polska coraz wyraźniej pojawia się na chińskim radarze",
+    "description": "— Jesteśmy rosnącym graczem na europejskiej arenie bezpieczeństwa. Chińscy dyplomaci i analitycy pytają, czy Polska zamierza zostać nowym liderem Europy — mówi Onetowi Paulina Uznańska z Ośrodka Studiów Wschodnich. I tłumaczy, dlaczego Chiny objęły sankcjami …",
+    "url": "https://wiadomosci.onet.pl/swiat/dwie-polskie-firmy-na-celowniku-pekinu-ekspertka-wyjasnia-co-to-dla-nas-znaczy/zfn8xt9",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-09T07:50:20.373420",
+    "published_at": "2026-08-07T15:22:43Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Smolensk-Affäre: „Dafür werden sie in der Hölle schmoren“",
+    "description": "Jahrelang unterstellte die PiS-Partei der Tusk-Regierung im Zusammenhang mit dem Flugzeugabsturz 2010 eine Verschwörung mit Russland. Nun kommt die Staatsanwaltschaft zu eindeutigen Ergebnissen.",
+    "url": "https://www.faz.net/aktuell/politik/ausland/smolensk-katastrophe-es-war-kein-hochverrat-201105003.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-09T07:50:21.033755",
+    "published_at": "2026-08-07T14:07:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Навроцкий об Украине: \"Там, где бьют московитов, Польша помогает\"",
+    "description": "Навроцкий заявил, что поддержка Украины в войне против РФ — стратегия Польши, но в исторических вопросах она будет стоять на своём.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/08/07/8047785/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-08-08T07:44:31.604916",
     "published_at": "2026-08-06T08:55:00Z",
     "source_type": "Newspaper / Magazine",
