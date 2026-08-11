@@ -1,5 +1,50 @@
 [
   {
+    "fetched_at": "2026-08-11T08:06:48.219323",
+    "published_at": "2026-08-10T02:01:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Why Poland’s right-wing split may not save Tusk",
+    "description": "Poland's leading opposition party has broken apart, but that may not help PM Donald Tusk.",
+    "url": "https://www.politico.eu/article/poland-right-wing-split-donald-tusk/",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": [
+      "Donald Tusk",
+      "Mateusz Morawiecki"
+    ]
+  },
+  {
+    "fetched_at": "2026-08-11T08:06:48.219551",
+    "published_at": "2026-08-09T15:34:30Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Bei Bauarbeiten - Einsturzgefahr! 105 Gäste aus Hotel evakuiert",
+    "description": "In der Ferienunterkunft in Polen kollabierte eine Mauer, dann musste es ganz schnell gehen.",
+    "url": "https://www.bild.de/news/ausland/bei-bauarbeiten-einsturzgefahr-105-gaeste-aus-hotel-evakuiert-6a787799e2d77b91408211ba",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-11T08:06:48.630677",
+    "published_at": "2026-08-09T11:45:13Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "vedomosti.ru",
+    "source": "Vedomosti.ru",
+    "title": "Украина выдала Польше новое разрешение на эксгумацию жертв Волынской резни",
+    "description": "Польша получила согласие украинской стороны на эксгумацию жертв Волынской резни. Новости Ведомости, 9 августа 2026.",
+    "url": "https://www.vedomosti.ru/politics/news/2026/08/09/1219820-ukraina-vidala-polshe",
+    "keyword": "country_terms",
+    "category": "Ukraine / Russia / Belarus",
+    "people": []
+  },
+  {
     "fetched_at": "2026-08-10T08:24:16.397826",
     "published_at": "2026-08-09T06:54:16Z",
     "source_type": "Newspaper / Magazine",
