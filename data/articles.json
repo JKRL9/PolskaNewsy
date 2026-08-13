@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-08-13T08:16:43.248394",
+    "published_at": "2026-08-12T05:07:47Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Die große Sonnenfinsternis - Alle schauen nach oben!",
+    "description": "Berlin/Madrid – Am Mittwochabend richtet sich der Blick von Millionen Menschen zum Himmel. In Europa verdunkelt eine Sonnenfinsternis den Himmel, teils sogar vollständig.",
+    "url": "https://www.bild.de/news/inland/die-grosse-sonnenfinsternis-am-mittwochabend-alle-schauen-nach-oben-6a7b1ff067ddb2e13c5842d0",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-13T08:16:43.583788",
+    "published_at": "2026-08-11T12:41:59Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Western media",
+    "source_domain": "bbc.com",
+    "source": "BBC News",
+    "title": "England set to be one of the first countries to eliminate hepatitis C",
+    "description": "England is on track to become one of the first countries in the world to eliminate hepatitis C, a dangerous virus that attacks the liver, figures show.",
+    "url": "https://www.bbc.com/news/articles/c75gk620r22o",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-13T08:16:43.248794",
+    "published_at": "2026-08-11T09:57:05Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Abenteuer im Freizeitpark - Das ist Deutschlands fantasievollster Freizeitpark",
+    "description": "Der Freizeitpark Turisede in Sachsen begeistert mit Geheimgängen, Baumhäusern, Hängebrücken und kreativen Erlebnissen für die ganze Familie.",
+    "url": "https://www.bild.de/leben-wissen/reisen/geheime-welt-von-turisede-ein-freizeitpark-fuer-die-ganze-familie-6a79e9fe97ee93b7ce85510e",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
     "fetched_at": "2026-08-12T08:12:50.846598",
     "published_at": "2026-08-11T04:55:40Z",
     "source_type": "Newspaper / Magazine",
