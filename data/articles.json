@@ -1,5 +1,77 @@
 [
   {
+    "fetched_at": "2026-08-18T07:33:09.938835",
+    "published_at": "2026-08-16T15:50:11Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Ex-CIA-Chef Leon Panetta warnt in BILD - Putin könnte in Deutschland zuschlagen",
+    "description": "Ex-US-Verteidigungsminister Leon Panetta warnt vor wachsender russischer Gefahr für NATO und Deutschland – und vor den Folgen der US-Raketenkrise.",
+    "url": "https://www.bild.de/politik/ausland-und-internationales/ex-cia-chef-panetta-in-bild-putin-koennte-in-deutschland-zuschlagen-6a7f698d169e8e32c0ae88fe",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-18T07:33:09.939028",
+    "published_at": "2026-08-16T13:18:55Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Für Mama hält sie ein Plakat hoch - Was Robbie Williams dann tut, rührt Tausende",
+    "description": "Beim BitterSweet-Festival in Polen hält ein junger Robbie-Fan ein Plakat hoch: „Meine Mutter liebt dich, Robbie“. Robbie Williams entdeckt die Nachricht....",
+    "url": "https://www.bild.de/unterhaltung/fuer-mama-haelt-sie-ein-plakat-hoch-was-robbie-williams-dann-tut-ruehrt-tausende-6a81890b169e8e32c0aea0dc",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-18T07:33:09.939162",
+    "published_at": "2026-08-16T13:01:41Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "At least 12 killed as Polish pilgrimage bus overturns in Hungary",
+    "description": "The Polish tour group was returning from Medjugorje in Bosnia and Herzegovina, where visions of the Virgin Mary have been reported.",
+    "url": "https://www.politico.eu/article/12-dead-poland-bus-accident-hungary/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": [
+      "Donald Tusk"
+    ]
+  },
+  {
+    "fetched_at": "2026-08-18T07:33:10.132791",
+    "published_at": "2026-08-16T11:40:55Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Western media",
+    "source_domain": "bbc.com",
+    "source": "BBC News",
+    "title": "Europe's tallest Virgin Mary statue unveiled in rural Poland",
+    "description": "The 55.6-metre (182ft) concrete figure is head-and-shoulders above Rio de Jaineiro's Christ the Redeemer.",
+    "url": "https://www.bbc.com/news/articles/cn5nnlq2pwpo",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-18T07:33:09.939612",
+    "published_at": "2026-08-16T07:50:46Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Unglück in Ungarn - Fahrer eingeschlafen? 12 Tote bei Bus-Crash",
+    "description": "Ein Reisebus aus Polen verunglückt auf der ungarischen Autobahn M3. Mindestens 12 Menschen sterben. Der Fahrer soll eingeschlafen sein.",
+    "url": "https://www.bild.de/news/ausland/fahrer-soll-eingeschlafen-sein-12-tote-bei-busunglueck-in-ungarn-6a815c4fe2db31c6341307bf",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-08-17T07:48:15.849005",
     "published_at": "2026-08-16T06:59:37Z",
     "source_type": "Newspaper / Magazine",
