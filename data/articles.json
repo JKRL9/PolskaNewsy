@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-08-19T07:33:36.857178",
+    "published_at": "2026-08-17T19:23:52Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "kommersant.ru",
+    "source": "Kommersant.ru",
+    "title": "В Польше заявили о подготовке к войне",
+    "description": "Польша готовится к возможной войне, но рассчитывает, что она все же не начнется. Об этом заявил замминистра обороны страны Цезарий Томчик в интервью Super Express.",
+    "url": "https://www.kommersant.ru/doc/8891628#article-text-8891628",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-19T07:33:36.339188",
+    "published_at": "2026-08-17T13:19:40Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Steuer runter, Preis runter - Polens Tankrabatt lässt deutsche Autofahrer träumen",
+    "description": "Warschau - Polen macht's vor: Seit diesem Montag tanken Autofahrer dort deutlich günstiger. Die Regierung hat die Mehrwertsteuer auf Benzin und Diesel vo...",
+    "url": "https://www.bild.de/politik/ausland-und-internationales/steuer-runter-preis-runter-polens-tankrabatt-laesst-deutsche-autofahrer-traeumen-6a830704a87e8142c31d2df5",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
     "fetched_at": "2026-08-18T07:33:09.938835",
     "published_at": "2026-08-16T15:50:11Z",
     "source_type": "Newspaper / Magazine",
