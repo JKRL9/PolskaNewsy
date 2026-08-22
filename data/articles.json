@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-08-22T07:27:03.280822",
+    "published_at": "2026-08-21T06:20:54Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "vedomosti.ru",
+    "source": "Vedomosti.ru",
+    "title": "Прибалтика, Польша и Чехия вызывают опасения у МИД перед выборами",
+    "description": "Прибалтийские страны, Польша, Нидерланды и Чехия вызывают наибольшие опасения у российских властей в преддверии выборов депутатов Госдумы. Новости Ведомости, 21 августа 2026.",
+    "url": "https://www.vedomosti.ru/politics/news/2026/08/21/1222718-pribaltika-polsha-chehiya",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-22T07:27:03.280924",
+    "published_at": "2026-08-21T05:40:55Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "kommersant.ru",
+    "source": "Kommersant.ru",
+    "title": "МИД России: Прибалтика, Чехия и Польша вызывают обеспокоенность перед выборами",
+    "description": "Министерство иностранных дел России выразило обеспокоенность в связи с подготовкой и проведением выборов в Госдуму в нескольких зарубежных странах. Среди них посол по особым поручениям МИД РФ Максим Райдер назвал Прибалтику, Польшу, Нидерланды и Чехию.",
+    "url": "https://www.kommersant.ru/doc/8894238#article-text-8894238",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-08-21T07:38:15.338248",
     "published_at": "2026-08-20T04:52:50Z",
     "source_type": "Newspaper / Magazine",
