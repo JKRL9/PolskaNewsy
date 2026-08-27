@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-08-27T18:02:56.956109",
+    "published_at": "2026-08-26T10:53:55Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Western media",
+    "source_domain": "bbc.com",
+    "source": "BBC News",
+    "title": "Від жертв війни до конкурентів. Чому ставлення поляків до українців змінилося так радикально",
+    "description": "Ще кілька років тому Польща була одним із найближчих союзників України, а мільйони поляків відкривали свої домівки для українців, які тікали від війни. Тепер дедалі більше поляків виступають проти прийому українських біженців, а ЗМІ рясніють повідомленнями пр…",
+    "url": "https://www.bbc.com/ukrainian/articles/c07ln1y3e2no",
+    "keyword": "country_terms",
+    "category": "Migration",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-27T18:02:56.531336",
+    "published_at": "2026-08-25T15:19:20Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "EU should stop moralizing on Arctic oil and let us get drilling, says Norway",
+    "description": "Oslo faces declining output that it says can only be offset by more drilling.",
+    "url": "https://www.politico.eu/article/norway-eu-arctic-oil-gas-drilling-energy-security/",
+    "keyword": "country_terms",
+    "category": "Economy",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-27T18:02:56.333010",
+    "published_at": "2026-08-25T11:50:12Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Są alerty IMGW dla pięciu województw. Nocą możliwe są utrudnienia komunikacyjne",
+    "description": "Najbliższa noc przyniesie niebezpieczną pogodę na północy Polski. W pięciu województwach zostały wydane ostrzeżenia IMGW, a wszystko przez ryzyko pojawienia się gęstych mgieł. Mogą one spowodować, że warunki na drogach staną się bardzo trudne. Niewykluczone s…",
+    "url": "https://wiadomosci.onet.pl/pogoda/ostrzezenia-imgw-na-noc-w-pieciu-wojewodztwach-trzeba-uwazac-na-drogach/lsglptn",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
     "fetched_at": "2026-08-26T07:41:19.826148",
     "published_at": "2026-08-24T10:40:00Z",
     "source_type": "Newspaper / Magazine",
