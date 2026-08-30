@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-08-30T12:32:19.182083",
+    "published_at": "2026-08-29T11:37:45Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Ausstellung in Frankfurt: Ihr Freiheitswille brachte polnische Pfadfinder ins KZ",
+    "description": "Eine Ausstellung in Frankfurt geht dem Schicksal junger Polen im KZ-Außenlager „Katzbach“ nach, die als Pfadfinder eine entscheidende Rolle beim Warschauer Aufstand 1944 gespielt haben.",
+    "url": "https://www.faz.net/aktuell/rhein-main/frankfurt/wie-pfadfinde-beim-warschauer-aufstand-1944-zu-helden-wurden-accg-201153122.html",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-08-30T12:32:19.182686",
+    "published_at": "2026-08-28T16:04:34Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Angriff auf 3000 Metern Höhe - Berg-Rambo: „Ich bin Bergführer, halt Dein Maul!“",
+    "description": "Bergführer bedroht polnischen Bergsteiger am Großglockner, Polizei ermittelt gegen ihn.",
+    "url": "https://www.bild.de/news/ausland/lebensgefaehrlicher-angriff-bergsteiger-geraten-auf-3000-metern-hoehe-in-streit-6a91929f2ed18bbd042e758d",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-08-29T12:56:00.694031",
     "published_at": "2026-08-28T06:45:08Z",
     "source_type": "Newspaper / Magazine",
