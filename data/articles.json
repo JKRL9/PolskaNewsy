@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-09-06T11:29:12.608056",
+    "published_at": "2026-09-05T10:06:18Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Ehemann musste alles mitansehen - Deutsche Urlauberin (64) ertrinkt in der Ostsee",
+    "description": "Eine Deutsche (64) ging mit ihrem Ehemann im polnischen Międzyzdroje in die Ostsee. Kurz darauf verschwand sie unter Wasser.",
+    "url": "https://www.bild.de/news/ausland/deutsche-urlauberin-64-ertrinkt-in-der-ostsee-ehemann-musste-alles-mitansehen-6a9bd53cdfc78737f5e67471",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-09-06T11:29:12.501624",
+    "published_at": "2026-09-04T11:55:32Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "\"U Naczelnego\". ​​​​Tosia kontra świat",
+    "description": "​Putin szykuje kolejną ofensywę, we Francji i Niemczech skrajna prawica ostrzy sobie zęby na władzę, trwa wojna o cieśninę Ormuz, sztuczna inteligencja rządzi światem, a Tajwan zastanawia się, czy nadchodzi chińska inwazja. Polska, jak jeden mąż, wstrzymuje o…",
+    "url": "https://wiadomosci.onet.pl/newslettery/u-naczelnego/bartosz-weglarczyk-polska-zyje-castingiem-a-za-oknem-swiat-plonie/wp5c0cz",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
     "fetched_at": "2026-09-05T11:05:44.603409",
     "published_at": "2026-09-04T10:42:02Z",
     "source_type": "Newspaper / Magazine",
