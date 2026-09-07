@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-09-07T13:14:03.282573",
+    "published_at": "2026-09-06T06:00:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Колись поляки радо приймали українців. Що сталося тепер?",
+    "description": "Зростання негативу щодо України у Польщі: вплив війни, історичних подій і дезінформації. Дані про зміну підтримки та основні фактори.",
+    "url": "https://www.pravda.com.ua/columns/2026/09/06/8052084/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-09-07T13:14:02.566746",
+    "published_at": "2026-09-05T15:48:23Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "\"Fronty Wojny\". Fala rosyjskich aktów sabotażu w Europie. \"Musimy się przygotować do realnej próby\"",
+    "description": "Seria pożarów i aktów sabotażu dotyka europejskie zakłady zbrojeniowe oraz infrastrukturę energetyczną. Prof. płk Dariusz Kozerawski ostrzega w podcaście \"Fronty Wojny\", że w ten sposób Rosja konsekwentnie realizuje swoje cele osłabienia Zachodu, w tym Polski…",
+    "url": "https://wiadomosci.onet.pl/tylko-w-onecie/fala-rosyjskich-atakow-w-europie-musimy-sie-przygotowac-do-realnej-proby/wjss5jr",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-09-07T13:14:02.799061",
+    "published_at": "2026-09-05T14:26:11Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Badeort Miedzyzdroje: Deutsche Touristin ertrinkt in Polen in der Ostsee",
+    "description": "Bei starkem Wind und hohen Wellen ist eine deutsche Touristin beim Baden in der Ostsee ums Leben gekommen. Die Polizei ermittelt zu den genauen Umständen.",
+    "url": "https://www.faz.net/aktuell/gesellschaft/ungluecke/polen-deutsche-touristin-ertrinkt-in-der-ostsee-accg-201197718.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
     "fetched_at": "2026-09-06T11:29:12.608056",
     "published_at": "2026-09-05T10:06:18Z",
     "source_type": "Newspaper / Magazine",
