@@ -1,5 +1,79 @@
 [
   {
+    "fetched_at": "2026-09-08T11:56:28.344591",
+    "published_at": "2026-09-07T10:41:29Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Polens Ministerpräsident Tusk - „Nur Idioten oder Verräter“ freuen sich über Sieg",
+    "description": "Polens Ministerpräsident Donald Tusk kritisiert den Jubel über den AfD-Wahlsieg in Sachsen-Anhalt scharf. Warum Warschau vor deutschem Nationalismus und einer Annäherung an Russland warnt.",
+    "url": "https://www.bild.de/politik/ausland-und-internationales/donald-tusk-idioten-oder-verraeter-freuen-sich-ueber-afd-sieg-6a9e77b6181cb962d48866c5",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": [
+      "Donald Tusk"
+    ]
+  },
+  {
+    "fetched_at": "2026-09-08T11:56:28.344838",
+    "published_at": "2026-09-07T09:19:51Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "F.A.Z. Exklusiv: VW-Werk steigt in Rüstung ein – weitere Partnerschaft für militärische Pick-ups",
+    "description": "Der VW-Standort Osnabrück bekommt neue Eigentümer und soll Technik für ein Unternehmen aus Israel bauen. Nach F.A.Z.-Informationen folgt bald ein weiterer Rüstungsdeal – mit einem Partner aus Polen.",
+    "url": "https://www.faz.net/aktuell/wirtschaft/vw-werk-steigt-in-ruestung-ein-weitere-partnerschaft-fuer-militaerische-pick-ups-accg-201201856.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-09-08T11:56:28.344989",
+    "published_at": "2026-09-07T09:19:51Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Autokonzern in der Krise: Volkswagen verkauft Werk in Osnabrück – und plant weiteren Rüstungsdeal",
+    "description": "Der VW-Standort Osnabrück bekommt neue Eigentümer und soll Technik für ein Unternehmen aus Israel bauen. Nach F.A.Z.-Informationen folgt bald ein weiterer Rüstungsdeal – mit einem Partner aus Polen.",
+    "url": "https://www.faz.net/aktuell/wirtschaft/vw-verkauft-werk-in-osnabrueck-und-plant-weiteren-ruestungsdeal-accg-201201856.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-09-08T11:56:28.219130",
+    "published_at": "2026-09-07T06:30:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Cyfrowy paradoks Polaków: dostrzegamy negatywny wpływ ekranów, ale rzadko zmieniamy nawyki",
+    "description": "Polacy są otoczeni ekranami - z samym smartfonem, więcej niż 4 na 10 badanych spędza co najmniej trzy godziny dziennie (42%). A do tego dochodzą inne urządzenia - blisko 16% z nas spędza 5 godzin dziennie lub więcej przy komputerze, a przed telewizorem zasiad…",
+    "url": "https://wiadomosci.onet.pl/kraj/cyfrowy-paradoks-polakow-dostrzegamy-negatywny-wplyw-ekranow-ale-rzadko-zmieniamy/jsz4spt",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-09-08T11:56:28.219539",
+    "published_at": "2026-09-06T14:57:02Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Minister Żurek apeluje do Zbigniewa Ziobry. Mówi o \"pokaźnej kwocie\"",
+    "description": "— Ja rzeczywiście zaapelowałem do Zbigniewa Ziobry, żeby może zaczął współpracować z polskim wymiarem sprawiedliwości, bo mamy fakty, które są dzisiaj niezbite: że wziął bardzo pokaźną kwotę — powiedział w rozmowie z TVP Info minister sprawiedliwości Waldemar…",
+    "url": "https://wiadomosci.onet.pl/kraj/afera-zondacrypto-waldemar-zurek-apeluje-do-zbigniewa-ziobry-chodzi-o-wspolprace/vhyyqg4",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": [
+      "Zbigniew Ziobro"
+    ]
+  },
+  {
     "fetched_at": "2026-09-07T13:14:03.282573",
     "published_at": "2026-09-06T06:00:00Z",
     "source_type": "Newspaper / Magazine",
