@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-10-02T13:30:42.630389",
+    "published_at": "2026-10-01T11:59:17Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Gdzie jest Marcin Romanowski? We wniosku podał adres pochodzący z Polski",
+    "description": "Marcin Romanowski, który może przebywać w podporządkowanym Rosji separatystycznym Naddniestrzu, we wniosku o wydanie mu listu żelaznego podał adres warszawski jako miejsce swojego pobytu. Chodzi o Dom Poselski — informuje Radio Zet.",
+    "url": "https://wiadomosci.onet.pl/kraj/gdzie-jest-marcin-romanowski-we-wniosku-podal-adres-pochodzacy-z-polski/rkxvzk5",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-02T13:30:43.365391",
+    "published_at": "2026-10-01T10:51:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "В Польше ввели новые правила реагирования ПВО на фоне российских атак на Украину",
+    "description": "С 1 октября Польша меняет правила идентификации и уничтожения воздушных целей для защиты от российских атак. Подробности от Минобороны.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/10/01/8055959/",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-02T13:30:42.630626",
+    "published_at": "2026-10-01T03:04:27Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Warszawa: jaka pogoda czeka nas 01.10.2026?",
+    "description": "Prognoza pogody dla miasta Warszawa. Co przyniesie aura w dniu 01.10.2026? Prezentujemy najnowsze przewidywania meteorologów. Prognoza pogody - województwo mazowieckie. Czy warunki dziś pozwolą na spokojny spacer? Sprawdzamy.",
+    "url": "https://wiadomosci.onet.pl/warszawa/warszawa-prognoza-pogody-w-dniu-01102026/bbp0p58",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
     "fetched_at": "2026-10-01T14:07:26.973356",
     "published_at": "2026-09-30T11:42:13Z",
     "source_type": "Newspaper / Magazine",
