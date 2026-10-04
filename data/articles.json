@@ -1,5 +1,63 @@
 [
   {
+    "fetched_at": "2026-10-04T13:00:26.895229",
+    "published_at": "2026-10-03T12:14:21Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Frankfurt und Krakau: „Ich habe meine polnische Seite sehr lange nicht gelebt“",
+    "description": "Am 22. Oktober wird die Städtepartnerschaft zwischen Frankfurt und Krakau groß in der Paulskirche gefeiert. Junge Leute beleben sie neu.",
+    "url": "https://www.faz.net/aktuell/rhein-main/frankfurt/frajda-pierogi-unterstuetzung-fuer-partnerstaedte-frankfurt-und-krakau-accg-201276692.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-04T13:00:26.895413",
+    "published_at": "2026-10-03T09:17:32Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Tanken: Polens Spritpreisbremse drückt die Preise auf 1,54 Euro",
+    "description": "In Polen tritt eine Spritpreisbremse in Kraft. Möglich wurde sie durch die   Übergewinnsteuer für Mineralölkonzerne – welche die CDU in Deutschland ablehnt.",
+    "url": "https://www.faz.net/aktuell/wirtschaft/auto-verkehr/spritpreisbremse-in-polen-benzin-ab-1-54-euro-accg-201285239.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": [
+      "Donald Tusk"
+    ]
+  },
+  {
+    "fetched_at": "2026-10-04T13:00:26.705515",
+    "published_at": "2026-10-03T03:04:53Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Warszawa - 03.10.2026. Jaka będzie pogoda w mieście?",
+    "description": "Warszawa. Prognoza pogody w twoim mieście. Jak będzie pogoda na zewnątrz w dniu 03.10.2026? Przedstawiamy najnowsze przewidywania meteorologów. Województwo mazowieckie - jaka jest aktualna prognoza pogody?",
+    "url": "https://wiadomosci.onet.pl/warszawa/warszawa-prognoza-pogody-w-dniu-03102026/92vv162",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-04T13:00:27.380537",
+    "published_at": "2026-10-02T13:40:31Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "vedomosti.ru",
+    "source": "Vedomosti.ru",
+    "title": "Польша вернула регулирование цен на бензин и дизель до конца года",
+    "description": "Правительство Польши возобновило программу регулирования цен на бензин и дизельное топливо, которая будет действовать до 31 декабря 2026 г. Новости Ведомости, 2 октября 2026.",
+    "url": "https://www.vedomosti.ru/politics/news/2026/10/02/1233867-polsha-vernula-regulirovanie",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
     "fetched_at": "2026-10-03T12:11:23.996149",
     "published_at": "2026-10-02T10:49:39Z",
     "source_type": "Newspaper / Magazine",
