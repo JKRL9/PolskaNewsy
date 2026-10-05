@@ -1,5 +1,47 @@
 [
   {
+    "fetched_at": "2026-10-05T15:29:55.999763",
+    "published_at": "2026-10-04T14:38:46Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Merz-Besuch in Kiew: „Herr Putin, hören Sie diesen sinnlosen Krieg auf!“",
+    "description": "Russland eskaliert die Angriffe auf die ukrainische Hauptstadt auch während des Besuchs von Bundeskanzler Friedrich Merz. Der sagt: „Wir halten durch, und auch ich persönlich halte durch.“",
+    "url": "https://www.faz.net/aktuell/politik/ukraine/merz-in-kiew-herr-putin-hoeren-sie-diesen-sinnlosen-krieg-auf-accg-201286372.html",
+    "keyword": "country_terms",
+    "category": "Ukraine / Russia / Belarus",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-05T15:29:55.999986",
+    "published_at": "2026-10-04T05:22:13Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Germany’s Merz visits Kyiv amid fears of ‘hardest’ winter in war",
+    "description": "The visit is overshadowed by heavy Russian attacks on Kyiv as well as tensions over Ukraine's EU membership prospects",
+    "url": "https://www.politico.eu/article/germany-friedrich-merz-visits-kyiv-amid-fears-of-hardest-winter-in-war/",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-05T15:29:55.782641",
+    "published_at": "2026-10-04T03:03:54Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Warszawa - prognoza pogody w dniu 04.10.2026",
+    "description": "Warszawa - czy dziś będzie ciepło w twoim mieście? Co przyniesie aura w dniu 04.10.2026? Prezentujemy najnowsze przewidywania meteorologów. Prognoza pogody - województwo mazowieckie.",
+    "url": "https://wiadomosci.onet.pl/warszawa/warszawa-prognoza-pogody-w-dniu-04102026/m4htb31",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
     "fetched_at": "2026-10-04T13:00:26.895229",
     "published_at": "2026-10-03T12:14:21Z",
     "source_type": "Newspaper / Magazine",
