@@ -1,5 +1,33 @@
 [
   {
+    "fetched_at": "2026-10-06T13:52:06.023776",
+    "published_at": "2026-10-05T03:03:42Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Warszawa: Jaka pogoda na dziś? Prognoza w dniu 05.10.2026",
+    "description": "Sprawdź, jaka pogoda czeka województwo mazowieckie. Czy warto zabrać ze sobą parasol i ciepłe okrycie. Pogoda na dziś!",
+    "url": "https://wiadomosci.onet.pl/warszawa/warszawa-prognoza-pogody-w-dniu-05102026/p29h5kg",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-06T13:52:06.169698",
+    "published_at": "2026-10-04T15:40:37Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Selbst Experten wissen nicht, was es ist - Mysteriöse Klumpen aus der Ostsee angespült",
+    "description": "Ölhaltige Klumpen verschmutzen die Strände der Ostsee. Der verunreinigte Strand ist 50 Kilometer lang.",
+    "url": "https://www.bild.de/regional/ostsee/klumpen-aus-der-ostsee-angespuelt-selbst-experten-wissen-nicht-was-es-ist-6ac0c039c00ec0a4cc07ac8f",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-10-05T15:29:55.999763",
     "published_at": "2026-10-04T14:38:46Z",
     "source_type": "Newspaper / Magazine",
