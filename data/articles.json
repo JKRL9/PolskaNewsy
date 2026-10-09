@@ -1,5 +1,49 @@
 [
   {
+    "fetched_at": "2026-10-09T14:04:51.052427",
+    "published_at": "2026-10-08T05:28:58Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Skandaliczne słowa Tuckera Carlsona. Polonia w USA domaga się przeprosin",
+    "description": "Kongres Polonii Amerykańskiej stanowczo potępił wypowiedzi amerykańskiego publicysty dotyczące ataku hitlerowskich Niemiec na Polskę w 1939 r. W liście otwartym wezwał Tuckera Carlsona do \"natychmiastowego wycofania swoich słów oraz publicznego przeproszenia …",
+    "url": "https://wiadomosci.onet.pl/swiat/skandaliczne-slowa-tuckera-carlsona-jest-reakcja-polonii-w-usa/666b110",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-09T14:04:51.052650",
+    "published_at": "2026-10-08T04:03:40Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Zamieszanie po wywiadzie z Radosławem Sikorskim. MSZ reaguje. Podsumowanie nocy",
+    "description": "Ukraiński portal podał, że Radosław Sikorski powiedział w wywiadzie, że Polska jest gotowa wysłać Ukrainie 29 myśliwców F-16, co — jak wyjaśniło Ministerstwo Spraw Zagranicznych — okazało się nieprawdą. W nocy pojawiły się także doniesienia, że USA mogą wkrót…",
+    "url": "https://wiadomosci.onet.pl/swiat/zamieszanie-po-wywiadzie-z-sikorskim-msz-reaguje-podsumowanie-nocy/4lmhht8",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": [
+      "Radosław Sikorski"
+    ]
+  },
+  {
+    "fetched_at": "2026-10-09T14:04:51.052809",
+    "published_at": "2026-10-08T03:04:22Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Warszawa. Sprawdź prognozę pogody w dniu 08.10.2026",
+    "description": "Warszawa - jaka będzie pogoda w twoim mieście? Czy aura w dniu 08.10.2026 sprzyjać będzie przebywaniu na świeżym powietrzu? Sprawdź, jaka pogoda czeka nas dziś. Prezentujemy najnowsze informacje meteorologiczne. Prognoza pogody - województwo mazowieckie.",
+    "url": "https://wiadomosci.onet.pl/warszawa/warszawa-prognoza-pogody-w-dniu-08102026/tf2jld0",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
     "fetched_at": "2026-10-08T14:19:54.130972",
     "published_at": "2026-10-07T12:06:58Z",
     "source_type": "Newspaper / Magazine",
