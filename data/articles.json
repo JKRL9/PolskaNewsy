@@ -1,5 +1,93 @@
 [
   {
+    "fetched_at": "2026-10-12T16:25:38.086909",
+    "published_at": "2026-10-11T15:04:05Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Eilmeldung - Mann plante Anschlag auf Polen-Premier Tusk – Festnahme!",
+    "description": "Mann plante Anschlag auf Polen-Premier Tusk – Festnahme!",
+    "url": "https://www.bild.de/politik/eilmeldung-mann-plante-anschlag-auf-polen-premier-tusk-festnahme-6acba38244e61ce244fcd9d1",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": [
+      "Donald Tusk"
+    ]
+  },
+  {
+    "fetched_at": "2026-10-12T16:25:37.882815",
+    "published_at": "2026-10-11T13:49:35Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Edyta Żemła: Tarcza Wschód nie może być pomnikiem poprzedniej wojny",
+    "description": "Przyroda bywa skuteczniejsza od kosztownych systemów uzbrojenia. Rosjanie przekonali się o tym pod Kijowem, gdy bagna pomogły zatrzymać ich ofensywę. Dziś podobną lekcję odrabia Polska, odbudowując mazurskie bagna w ramach Tarczy Wschód. Prawdziwym wyzwaniem …",
+    "url": "https://wiadomosci.onet.pl/kraj/dziennikarka-ocenia-tarcze-wschod-mowi-o-tym-co-widziala/3fyj0vt",
+    "keyword": "country_terms",
+    "category": "Ukraine / Russia / Belarus",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-12T16:25:38.087003",
+    "published_at": "2026-10-11T13:27:16Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Polish police warn of possible assassination plot against Donald Tusk",
+    "description": "\"We are treating this matter very seriously,\" said a government spokesperson.",
+    "url": "https://www.politico.eu/article/poland-donald-tusk-police-warn-of-possible-plot-against-pm/",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": [
+      "Donald Tusk"
+    ]
+  },
+  {
+    "fetched_at": "2026-10-12T16:25:38.087288",
+    "published_at": "2026-10-11T09:43:25Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Polnische Polizei erhielt Hinweis - Offenbar Mordanschlag auf Premier Tusk geplant",
+    "description": "Polens Polizei erhielt Hinweise zu einem Attentat gegen Regierungschef und Vizepremier.",
+    "url": "https://www.bild.de/politik/ausland-und-internationales/polnische-polizei-erhielt-hinweis-offenbar-mordanschlag-auf-premier-tusk-geplant-6acb52e5ae3fef9986cc0661",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-12T16:25:37.883036",
+    "published_at": "2026-10-11T03:04:23Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Warszawa - 11.10.2026. Pogoda na dziś",
+    "description": "Sprawdź, jaka pogoda czeka województwo mazowieckie. Czy warto zabrać ze sobą parasol i ciepłe okrycie. Pogoda na dziś!",
+    "url": "https://wiadomosci.onet.pl/warszawa/warszawa-prognoza-pogody-w-dniu-11102026/v6zb940",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-12T16:25:38.087615",
+    "published_at": "2026-10-10T16:17:14Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Polizei prüft Social-Media-Challenge - Messerangriffe erschüttern Schulen in Polen",
+    "description": "Nach drei Messerangriffen an Schulen wurden 76 Personen festgenommen. Die Polizei prüft eine gefährliche Social-Media-Challenge und verschärft die Kontrollen.",
+    "url": "https://www.bild.de/news/ausland/polizei-prueft-social-media-challenge-messerangriffe-erschuettern-schulen-in-polen-6aca38435528343575dff36f",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
     "fetched_at": "2026-10-11T13:43:53.104848",
     "published_at": "2026-10-10T03:04:32Z",
     "source_type": "Newspaper / Magazine",
