@@ -1,5 +1,63 @@
 [
   {
+    "fetched_at": "2026-10-15T12:24:52.127407",
+    "published_at": "2026-10-14T07:36:11Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Liveblog Ukrainekrieg: Ukraine: SpaceX schränkt Starlink-Nutzung für Militär ein",
+    "description": "Störungen bei Geschwindigkeiten von über 160 Kilometern pro Stunde +++ Ukrainer beklagen nach neuen Angriffen abermals fehlende Vorwarnung +++ Selenskyj äußert sich zu Angriffen auf Kiew +++ alle Neuigkeiten im Liveblog",
+    "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-ukraine-spacex-schraenkt-militaerische-nutzung-von-starlink-ein-faz-110683325.html",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-15T12:24:51.955445",
+    "published_at": "2026-10-14T03:04:04Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Warszawa. Prognoza pogody w dniu 14.10.2026",
+    "description": "Warszawa - czy dziś będzie ciepło w twoim mieście? Co przyniesie aura w dniu 14.10.2026? Prezentujemy najnowsze przewidywania meteorologów. Prognoza pogody - województwo mazowieckie.",
+    "url": "https://wiadomosci.onet.pl/warszawa/warszawa-prognoza-pogody-w-dniu-14102026/1f5flb4",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-15T12:24:51.955598",
+    "published_at": "2026-10-14T01:39:44Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Cyberatak na holenderską sieć supermarketów. Trop prowadzi do Polski",
+    "description": "Największa holenderska sieć supermarketów Albert Heijn padła ofiarą poważnego cyberataku. Hakerzy wykorzystali serwery zlokalizowane m.in. w Polsce, USA, Mołdawii i Turcji. Skutki ataku były poważne — sklepy miały puste półki, a dostawy internetowe zostały ws…",
+    "url": "https://wiadomosci.onet.pl/swiat/siec-albert-heijn-ofiara-cyberprzestepcow-trop-prowadzi-do-polski/m3q9zjl",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-15T12:24:52.127939",
+    "published_at": "2026-10-13T15:08:01Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Poland arrests second man over threats to Prime Minister Tusk",
+    "description": "The 46-year-old suspect allegedly posted messages calling for the killing of Donald Tusk on Facebook and TikTok.",
+    "url": "https://www.politico.eu/article/poland-arrests-second-man-over-threats-to-prime-minister-donald-tusk/",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": [
+      "Donald Tusk"
+    ]
+  },
+  {
     "fetched_at": "2026-10-14T12:36:50.206356",
     "published_at": "2026-10-13T12:20:07Z",
     "source_type": "Newspaper / Magazine",
