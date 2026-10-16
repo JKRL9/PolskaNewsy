@@ -1,5 +1,77 @@
 [
   {
+    "fetched_at": "2026-10-16T12:03:49.344454",
+    "published_at": "2026-10-15T11:55:03Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Polacy zapytani o rozliczenia PiS. Złe wieści dla rządu [SONDAŻ]",
+    "description": "Blisko połowa Polaków negatywnie ocenia tempo i efekty rozliczeń rządów Prawa i Sprawiedliwości — wynika z nowego sondażu United Surveys by IBRiS na zlecenie Wirtualnej Polski.",
+    "url": "https://wiadomosci.onet.pl/kraj/polacy-zapytani-o-rozliczenia-rzadow-pis-zle-wiesci-dla-rzadu-sondaz/ljcbykb",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-16T12:03:49.344674",
+    "published_at": "2026-10-15T03:04:29Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Warszawa - 15.10.2026. Prognoza pogody w mieście",
+    "description": "Jaka pogoda będzie dziś w twoim mieście? Warszawa - prognoza w dniu 15.10.2026. Prezentujemy najnowsze przewidywania meteorologów. Województwo mazowieckie - sprawdź prognozę pogody.",
+    "url": "https://wiadomosci.onet.pl/warszawa/warszawa-prognoza-pogody-w-dniu-15102026/9lbd2wj",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-16T12:03:49.636117",
+    "published_at": "2026-10-14T19:04:36Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Liveblog Ukrainekrieg: Selenskyj fühlt sich von Trumps Kurs „verraten“",
+    "description": "Selenskyj: „Das ist nicht die richtige Seite der Geschichte“ +++ Nach Polen brannte auch in Bulgarien eine Starlink-Anlage +++ Kiew: Weitere Dörfer im Gebiet Donezk befreit +++ alle Neuigkeiten im Liveblog",
+    "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-selenskyj-fuehlt-sich-von-trumps-kurs-verraten-faz-110683325.html",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-16T12:03:49.344965",
+    "published_at": "2026-10-14T15:57:10Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Radosław Sikorski spiął się z amerykańską kongresmanką. \"Proszę jednak pamiętać\"",
+    "description": "Na słowa Radosława Sikorskiego w sprawie ograniczenia działania Starlinków dla Ukrainy zareagowała amerykańska kongresmanka. Zarzuciła ona brak pomocy dla Donalda Trumpa w negocjacjach pokojowych. Na jej wpis zareagował polski minister.",
+    "url": "https://wiadomosci.onet.pl/swiat/radoslaw-sikorski-spial-sie-z-amerykanska-kongresmanka-prosze-jednak-pamietac/gy1n40m",
+    "keyword": "country_terms",
+    "category": "Politics",
+    "people": [
+      "Radosław Sikorski"
+    ]
+  },
+  {
+    "fetched_at": "2026-10-16T12:03:49.636341",
+    "published_at": "2026-10-14T12:47:15Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Liveblog Ukrainekrieg: Kiew meldet Rückeroberung weiterer Dörfer in Donezk",
+    "description": "Brigadegeneral: 16 Ortschaften durch Gegegenoffensive befreit +++ SpaceX soll Starlink-Nutzung für Militär einschränken +++ Ukrainer beklagen nach Angriffen abermals fehlende Vorwarnung +++ alle Neuigkeiten im Liveblog",
+    "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-kiew-meldet-rueckeroberung-weiterer-doerfer-in-donezk-faz-110683325.html",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
     "fetched_at": "2026-10-15T12:24:52.127407",
     "published_at": "2026-10-14T07:36:11Z",
     "source_type": "Newspaper / Magazine",
