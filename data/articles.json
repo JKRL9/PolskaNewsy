@@ -1,5 +1,63 @@
 [
   {
+    "fetched_at": "2026-10-18T11:54:56.955083",
+    "published_at": "2026-10-17T07:33:32Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Polnischer Außenminister mit Aussage - USA geben seit Januar 2025 kein Geld an Ukraine",
+    "description": "US-Präsident Donald Trump verweist auf die Milliardenhilfen für die Ukraine. Seit seinem Amtsantritt sind die neuen US-Hilfen jedoch drastisch zurückgegangen.",
+    "url": "https://www.bild.de/politik/ausland-und-internationales/polnischer-aussenminister-mit-hammer-aussage-usa-geben-seit-januar-2025-keinen-cent-mehr-fuer-die-ukraine-6ad30f571918705d12968596",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-18T11:54:56.849079",
+    "published_at": "2026-10-17T03:04:29Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Warszawa - prognoza pogody w dniu 17.10.2026",
+    "description": "Sprawdź, jaka pogoda czeka województwo mazowieckie. Czy warto zabrać ze sobą parasol i ciepłe okrycie. Pogoda na dziś!",
+    "url": "https://wiadomosci.onet.pl/warszawa/warszawa-prognoza-pogody-w-dniu-17102026/nzmdj9q",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-18T11:54:56.849336",
+    "published_at": "2026-10-16T13:56:16Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Marcin Kierwiński reaguje na relację TV Republika. \"Nie zostawimy tego\"",
+    "description": "\"Każdy, kto atakuje polski mundur, będzie ponosił tego konsekwencje\" — napisał szef MSWiA Marcin Kierwiński. W ten sposób skomentował relację TV Republika, która pokazywała interwencję polskiej policji w pobliżu biura Adama Borowskiego.",
+    "url": "https://wiadomosci.onet.pl/kraj/marcin-kierwinski-reaguje-na-relacje-tv-republika-nie-zostawimy-tego/48vn9kc",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": [
+      "Marcin Kierwiński"
+    ]
+  },
+  {
+    "fetched_at": "2026-10-18T11:54:56.955488",
+    "published_at": "2026-10-16T12:50:30Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Denmark, Italy, Poland urge EU leaders to harden stance on irregular migration",
+    "description": "Draft conclusions backed by Rome, Warsaw and Copenhagen say irregular migration is \"negatively linked to crime rates.\"",
+    "url": "https://www.politico.eu/article/denmark-italy-poland-push-eu-tougher-irregular-migration-crackdown/",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
     "fetched_at": "2026-10-17T11:18:48.378302",
     "published_at": "2026-10-16T03:10:00Z",
     "source_type": "Newspaper / Magazine",
