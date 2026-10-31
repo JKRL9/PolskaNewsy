@@ -1,5 +1,78 @@
 [
   {
+    "fetched_at": "2026-10-31T13:15:29.118915",
+    "published_at": "2026-10-30T10:00:10Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Western media",
+    "source_domain": "foreignpolicy.com",
+    "source": "Foreign Policy",
+    "title": "Trump Promised Poland More Troops. They’re Still Not There.",
+    "description": "The delay exposes the chaos of the Trump administration’s foreign-policy pivots.",
+    "url": "http://foreignpolicy.com/2026/10/30/trump-poland-troops-deployment-delay-europe-review/",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-31T13:15:28.667022",
+    "published_at": "2026-10-30T07:00:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Atom a bezpieczeństwo energetyczne Polski",
+    "description": "Dwie elektrownie jądrowe, nawet 9 GW stabilnych mocy, miliardy złotych nakładów inwestycyjnych i tysiące nowych miejsc pracy. Polska buduje nowy filar energetyki, a wraz z nim szansę na rozwój nowoczesnego przemysłu i wejście do światowej ligi technologii jąd…",
+    "url": "https://wiadomosci.onet.pl/kraj/atom-a-bezpieczenstwo-energetyczne-polski/j2h7rks",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-31T13:15:28.667177",
+    "published_at": "2026-10-30T04:06:05Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Warszawa - jakiej pogody możemy się spodziewać 30.10.2026?",
+    "description": "Warszawa - czy dzisiejsza pogoda będzie sprzyjać mieszkańcom? Czy w dniu 30.10.2026 przydadzą się nam parasole? Pokazujemy najnowsze przewidywania meteorologów. Województwo mazowieckie - prognoza pogody.",
+    "url": "https://wiadomosci.onet.pl/warszawa/warszawa-prognoza-pogody-w-dniu-30102026/yn5tqjn",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-31T13:15:28.667341",
+    "published_at": "2026-10-29T18:51:35Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Rosyjskie MSZ reaguje na incydent w Warszawie. \"Wzywamy stronę polską\"",
+    "description": "W czwartkowy wieczór w mediach społecznościowych rosyjskiej ambasady został zamieszczony komunikat ze słowami rzeczniczki MSZ w Moskwie. Przedstawiciele Rosji domagają się od Polski wyjaśnień w sprawie uszkodzenia grobów żołnierzy radzieckich w Polsce. To nie…",
+    "url": "https://wiadomosci.onet.pl/swiat/wzywamy-strone-polska-rosyjskie-msz-reaguje-na-incydent-w-warszawie/9f0f5js",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-10-31T13:15:28.667515",
+    "published_at": "2026-10-29T16:09:22Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Mateusz Morawiecki kontra Jarosław Kaczyński. Politycy spierają się o UE",
+    "description": "Miejsce Polski jest w Unii Europejskiej — oświadczył były premier Mateusz Morawiecki, odnosząc się do słów Jarosława Kaczyńskiego. Zdradził jednocześnie, jak wygląda UE jego marzeń. Do wymiany poglądów między byłymi premierami włączył się też kandydat na prem…",
+    "url": "https://wiadomosci.onet.pl/kraj/mateusz-morawiecki-kontra-jaroslaw-kaczynski-politycy-spieraja-sie-o-ue/gvfqbjj",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": [
+      "Jarosław Kaczyński",
+      "Mateusz Morawiecki"
+    ]
+  },
+  {
     "fetched_at": "2026-10-30T13:46:21.323800",
     "published_at": "2026-10-29T12:42:22Z",
     "source_type": "Newspaper / Magazine",
