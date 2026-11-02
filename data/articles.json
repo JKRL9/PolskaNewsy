@@ -1,5 +1,53 @@
 [
   {
+    "fetched_at": "2026-11-02T16:46:17.189856",
+    "published_at": "2026-11-01T09:01:25Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Krise in polen: EU fordert Vereidigung neuer Richter",
+    "description": "Die EU-Kommission stellt sich im Richterstreit gegen Polens Präsidenten Karol Nawrocki. Regierungschef Donald Tusk warnt vor dem „Gesetz des Dschungels“.",
+    "url": "https://www.faz.net/aktuell/politik/ausland/eu-fordert-von-polens-praesidenten-vereidigung-neuer-richter-accg-201640350.html",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": [
+      "Donald Tusk",
+      "Karol Nawrocki"
+    ]
+  },
+  {
+    "fetched_at": "2026-11-02T16:46:17.072259",
+    "published_at": "2026-11-01T04:05:18Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Warszawa - prognoza pogody w dniu 01.11.2026",
+    "description": "Warszawa - czy dzisiejsza pogoda będzie sprzyjać mieszkańcom? Czy w dniu 01.11.2026 przydadzą się nam parasole? Pokazujemy najnowsze przewidywania meteorologów. Województwo mazowieckie - prognoza pogody.",
+    "url": "https://wiadomosci.onet.pl/warszawa/warszawa-prognoza-pogody-w-dniu-01112026/kcdgt12",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-11-02T16:46:17.190020",
+    "published_at": "2026-10-31T20:45:52Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "faz.net",
+    "source": "Faz.net",
+    "title": "Krisentreffen: Machtkampf um Polens Verfassungsgericht spitzt sich zu",
+    "description": "Präsident Karol Nawrocki, der der PiS nahe steht, lädt alle Parteien zur Krisensitzung zur Lage um das Verfassungsgericht. Doch Donald Tusks Partei lässt sich darauf nicht ein.",
+    "url": "https://www.faz.net/aktuell/politik/ausland/polens-verfassungsgericht-nawrocki-laedt-zur-krisensitzung-201639845.html",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": [
+      "Donald Tusk",
+      "Karol Nawrocki"
+    ]
+  },
+  {
     "fetched_at": "2026-11-01T13:59:19.252048",
     "published_at": "2026-10-31T13:46:29Z",
     "source_type": "Newspaper / Magazine",
