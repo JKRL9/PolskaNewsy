@@ -1,5 +1,63 @@
 [
   {
+    "fetched_at": "2026-11-12T15:43:47.211013",
+    "published_at": "2026-11-11T15:12:06Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Radosław Sikorski uderza w prezydenta. \"Raz jest młotem na elity, a raz królem\"",
+    "description": "Szef MSZ odniósł się do przemówienia Karola Nawrockiego, który w Warszawie wskazywał, co jego zdaniem doprowadziło do rozbiorów Polski. Prezydent ewidentnie nawiązywał do obecnych sporów politycznych. \"Moim zdaniem to niespójność\" — ocenił jego słowa Radosław…",
+    "url": "https://wiadomosci.onet.pl/kraj/radoslaw-sikorski-uderza-w-prezydenta-raz-jest-mlotem-na-elity-a-raz-krolem/tt9fdvg",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": [
+      "Radosław Sikorski"
+    ]
+  },
+  {
+    "fetched_at": "2026-11-12T15:43:47.370917",
+    "published_at": "2026-11-10T20:18:01Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "politico.eu",
+    "source": "POLITICO.eu",
+    "title": "Poland says Pentagon backs permanent US base, with Trump decision due in December",
+    "description": "Warsaw is seeking a lasting American military commitment as NATO allies fear further U.S. troop withdrawals from Europe.",
+    "url": "https://www.politico.eu/article/poland-says-pentagon-backs-permanent-us-base-with-trump-decision-due-in-december/",
+    "keyword": "country_terms",
+    "category": "Security",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-11-12T15:43:47.989231",
+    "published_at": "2026-11-10T18:57:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Украина и Польша подписали соглашение о создании рабочих групп по вопросам дронных технологий",
+    "description": "Украина и Польша подписали соглашение о создании совместных рабочих групп по вопросам технологий беспилотных летательных аппаратов и противодействия дронам.",
+    "url": "https://www.pravda.com.ua/rus/news/2026/11/10/8062224/",
+    "keyword": "country_terms",
+    "category": "Ukraine / Russia / Belarus",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-11-12T15:43:47.989370",
+    "published_at": "2026-11-10T18:57:00Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Eastern media",
+    "source_domain": "pravda.com.ua",
+    "source": "Pravda.com.ua",
+    "title": "Україна і Польща підписали угоду про робочі групи з питань дронових технологій",
+    "description": "Україна та Польща підписали угоду про створення спільних робочих груп з питань технологій безпілотників та протидії дронам.",
+    "url": "https://www.pravda.com.ua/news/2026/11/10/8062224/",
+    "keyword": "country_terms",
+    "category": "Ukraine / Russia / Belarus",
+    "people": []
+  },
+  {
     "fetched_at": "2026-11-11T14:52:58.068663",
     "published_at": "2026-11-10T13:51:05Z",
     "source_type": "Newspaper / Magazine",
