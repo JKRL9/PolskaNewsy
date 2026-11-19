@@ -1,5 +1,63 @@
 [
   {
+    "fetched_at": "2026-11-19T16:15:15.040948",
+    "published_at": "2026-11-18T14:47:31Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Asian media",
+    "source_domain": "asahi.com",
+    "source": "Asahi.com",
+    "title": "日英伊の次期戦闘機計画、ポーランド外相「オブザーバー参加に関心」",
+    "description": "ポーランドのシコルスキ副首相兼外相は17日、日英伊3カ国が進める次期戦闘機共同開発計画（GCAP）について「我々はオブザーバーになることに関心がある」と語った。首都ワルシャワで、朝日新聞を含む国外メ…",
+    "url": "https://www.asahi.com/articles/ASVCL4TNWVCLUHBI02RM.html",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-11-19T16:15:14.240285",
+    "published_at": "2026-11-18T12:54:21Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "Polish media",
+    "source_domain": "onet.pl",
+    "source": "Onet.pl",
+    "title": "Władysław Kosiniak-Kamysz: Polski nie stać na niekończący się spór",
+    "description": "\"Polski nie stać na niekończący się spór o Trybunał Konstytucyjny\" — napisał wicepremier Władysław Kosiniak-Kamysz. Lider PSL-u zaprosił wszystkich zainteresowanych rozwiązaniem sporu wokół sądu konstytucyjnego na konsultacje społeczne do Sejmu. Odbędą się on…",
+    "url": "https://wiadomosci.onet.pl/kraj/impas-wokol-tk-wladyslaw-kosiniak-kamysz-zaprasza-na-konsultacje-do-sejmu/b99nwrm",
+    "keyword": "country_terms",
+    "category": "General Poland",
+    "people": [
+      "Władysław Kosiniak-Kamysz"
+    ]
+  },
+  {
+    "fetched_at": "2026-11-19T16:15:14.404488",
+    "published_at": "2026-11-18T10:01:48Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Geheimdienst und Eliteeinheiten im Einsatz - Putin wollte Blutbad in Polen inszenieren",
+    "description": "Eine gemeinsame Operation polnischer Geheimdienste, Polizei und Elite-Soldaten hat Ende Oktober und Anfang November eine russische Sabotage-Provokation an der Grenze zu Kaliningrad verhindert.",
+    "url": "https://www.bild.de/politik/ausland-und-internationales/kaliningrad-wladimir-putin-wollte-blutbad-in-polen-inszenieren-lassen-6afd6266a883f861e5330413",
+    "keyword": "country_terms",
+    "category": "Ukraine / Russia / Belarus",
+    "people": []
+  },
+  {
+    "fetched_at": "2026-11-19T16:15:14.404668",
+    "published_at": "2026-11-18T10:00:48Z",
+    "source_type": "Newspaper / Magazine",
+    "media_group": "EU media",
+    "source_domain": "bild.de",
+    "source": "Bild",
+    "title": "Amelia (19) starb auf dem Nachhauseweg - Betrunkener überfährt eigene Schwester",
+    "description": "Die 19-jährige Amelia nur wenige Hundert Meter von zu Hause entfernt, als sie nachts von einem Auto erfasst wurde – am Steuer saß ihr Bruder.",
+    "url": "https://www.bild.de/news/ausland/amelia-19-starb-auf-dem-nachhauseweg-betrunkener-ueberfaehrt-eigene-schwester-6afd4a38bb7e7a6679f92303",
+    "keyword": "country_terms",
+    "category": "Europe / EU",
+    "people": []
+  },
+  {
     "fetched_at": "2026-11-18T16:07:52.553256",
     "published_at": "2026-11-17T15:50:39Z",
     "source_type": "Newspaper / Magazine",
